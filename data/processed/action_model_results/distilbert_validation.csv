@@ -1,0 +1,61 @@
+text,label_id,label
+"So it's only gonna use quite small documents, you see, to start with.",0,NON_ACTION
+"Yeah, but w it don't you have to like go sort of like for in a document versus the whole thing? Isn't that how it works that you c look look at r",1,ACTION
+"Yes. But I I mean as um the start uh start times um start for each meeting at zero, you could just probably just um add the um final second time to the next meeting and so on and just put it all together. But then we would have to change um the information about who on which channel it was set, um to by which person it was set. And that is actually stored in another X_M_L_ document.",1,ACTION
+"So if this lazy loading works, then this should definitely fit into I mean not memory then because it wouldn't all be in memory at the same time. So if we just have those sort of that information like a long list of all the utterances slash segments and like short or smaller lists which give weight to them.",0,NON_ACTION
+Didn't have a look at our meetings.,1,ACTION
+Put it on to C_D_. I can if I get down I can put to C_D_.,0,NON_ACTION
+"Because if we're doing Like I think for for the information density we uh we should calculate it on the lowest level, not on the highest. But like 'cause",1,ACTION
+"Because if we if we average average over over a whole utterance all the words, and there are quite unimportant words in there, but quite important words as well, I think we should just disregard the the",1,ACTION
+Hmm yes.,0,NON_ACTION
+And then seriali and then write the serialization to a file. So you want like a se like a file which is the serialization of a hash table.,1,ACTION
+"Yeah, I I don't know about the search functionality, that might be online. Depends how it's gonna work.",0,NON_ACTION
+"Yeah, but I'm I'm still worried. Like for example for the display, if you actually if you want a display uh like for the whole series, the information density levels based on and and the f and the only granularity you have is individual utterances, that means you have to through every single utterance in a series of seventy hours of meetings.",1,ACTION
+"Yeah, and then we'll maybe have to prioritize somebody into just integrating it.",1,ACTION
+Well you need the raw frequency as well. But um,0,NON_ACTION
+Why do we have to do it in memory? But that stuff's so,1,ACTION
+"It doesn't need ordered, no.",0,NON_ACTION
+I would've thought that um I think all the collections and things implement serializable already.,1,ACTION
+Uh Wednesday I've got a nine 'til twelve.,0,NON_ACTION
+Can I convert these probabilities back into frequencies?,0,NON_ACTION
+Um,0,NON_ACTION
+"Well it may not for the whole meeting, but like",0,NON_ACTION
+They are on,0,NON_ACTION
+"Well like the ideas we're calculating are information density all off-line first for every utterance in the whole corpus, right? So what you do is you say if you're looking at a series of meetings, you just say well our whole document comprises of all these stuck together. And then all you have to do is sort them by j information density. Like maybe weighted with the search terms, and then extract them. I don't think it's too slow to do on-line, to be honest.",0,NON_ACTION
+"Yeah, that's what I thought as well, that you that probably the the topic segment level is the most um informative for the words.",0,NON_ACTION
+Right.,0,NON_ACTION
+"Right. Yeah, so that's approach um well, I was going to do. So yeah, we may as well collaborate.",0,NON_ACTION
+Mm-hmm.,0,NON_ACTION
+But if you were doing a search over the whole corpus you'd have to load them all.,0,NON_ACTION
+And it should be weighted by stuff like the hot spots and um the key-words in the search and stuff like that.,0,NON_ACTION
+"Frequencies. Yeah. Well I guess as soon as we have the raw text, we can probably just start with the Java hash map and like just hash map over it and see how far we get. I mean we can probably on a machine with a few hundred megabyte RAM you can go quite far. You can write it on beefy. So even if it goes wrong and even if it has a million words be",1,ACTION
+"Yeah, but it use the same data.",0,NON_ACTION
+"Um Dave, if you would or actually for well, if you're doing I_D_F_s or you whatever you call your your frequencies, I always mix up the name, uh you need some dictionary for that at some point though, like you need to have some representation of a word as not not that specific occurrence of that word token, but of of of a given word form. Because you're making counts for word forms, right? Yeah, so we should work together on that, because I need a dictionary as well.",1,ACTION
+"Well no, it doesn't have to be.",1,ACTION
+And that will obviously make it much easier to display.,0,NON_ACTION
+"If you're doing it in Java, could you um serialize the output as well as writing it to a file? If you're doing it in Java, could you serialize the um dictionary, yeah, as well as writing it to a file?",1,ACTION
+And also um there are different um combinations of letters. B_R_E_ and something like that. Is it everything ordered are the time stamps global or uh are they local at any point?,0,NON_ACTION
+It'd be useful. I don't know who you see about that though.,0,NON_ACTION
+Yeah.,0,NON_ACTION
+"Having said that, are we allowed to take a copy of the ICSI corpus? Something we should probably ask before we do it.",1,ACTION
+"Like 'cause frequency would be useful, I think. But um depending on the context, the size, and what we consider a document in the sense of calculating T_F_I_D_F_ is gonna change.",1,ACTION
+Yeah.,0,NON_ACTION
+"Yeah, I mean if it's just for one meeting, it's really not too big.",0,NON_ACTION
+I think we should filter them.,1,ACTION
+"'Cause if we are, I reckon we should all read our classes out of the database. It'll be so much easier.",1,ACTION
+"I don't think it's really that much of a problem because if it's too big, what we can do is just well all the off-line stuff doesn't really matter. And all we can do is just process a bit at a time. Like for summarisation, say we wanted a hundred utterances in the summary, just look at the meeting, take the top one hundred utterances in each other meeting. If it scores higher than the ones already in the summary so far, just replace them. And then you only have to process one meeting at a time.",1,ACTION
+Okay.,0,NON_ACTION
+Yeah.,0,NON_ACTION
+"Uh mine's gonna be mostly using the off-line. But the actual stuff it's doing will be on-line. But it won't be very um processor intensive or memory intensive, I don't think.",0,NON_ACTION
+"Okay, but like let's just be careful that whatever we sort of we merge together, that like the highest level of merging, it's not the whole ICSI corpus but individual series.",1,ACTION
+That's easy. You just like create a new X_M_L_ document in memory.,1,ACTION
+pretty much it?,0,NON_ACTION
+Yeah.,0,NON_ACTION
+"Yeah, but I'd uh I would like to look at the frequency of words in my um in the regions of text I found out to be interesting. So I wouldn't need it. It it would have to be re-calculated only for my segments.",1,ACTION
+Mm-hmm.,0,NON_ACTION
+"Okay. Yeah, that should be for",0,NON_ACTION
+"Yes, I did. But um I've only just got the notes. I have to still have uh to order everything by the time and",1,ACTION
+"Yeah, I think it's it the it sounded like they wanted to check out how well they were doing with overlapping and stuff, because basically it's like they're reading them at different speeds, but you know in which order they are said. Anyway. ICSI has some reasons for doing it. They must have been pissed off saying like numbers at the end of every meeting.",1,ACTION
+"So it it seems that the data structure isn't a big problem and that basically we don't have to have all these massive discussions of how we exactly interact with the data structure because most of our work isn't done with that data structure in memory in the browser, but it's just done off-line and everyone can ha represent it anyway they want as long as they sort of store it in a useful X_M_L_ representation in the end. So like",1,ACTION
+So uh only words um per meeting series.,0,NON_ACTION
+Should be very,0,NON_ACTION

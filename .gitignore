@@ -1,0 +1,11 @@
+﻿__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.vscode/
+data/raw/ami_public_manual_1.6.2/
+models/action_classifier_distilbert/
+*.log
+.streamlit/secrets.toml
+models/*/model.safetensors

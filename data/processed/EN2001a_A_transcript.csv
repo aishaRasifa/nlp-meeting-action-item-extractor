@@ -1,0 +1,137 @@
+meeting_id,speaker,segment_id,start_time,end_time,text
+EN2001a,A,EN2001a.sync.3,5.496,6.07,Okay.
+EN2001a,A,EN2001a.sync.5,11.04,15.632,Does anyone want to see uh Steve's feedback from the specification?
+EN2001a,A,EN2001a.sync.7,18.883,19.373,Right.
+EN2001a,A,EN2001a.sync.9,21.392,25.857,"Not really, um just what he's talking about, like duplication of effort and"
+EN2001a,A,EN2001a.sync.11,28.033,40.152,"Like duplication of effort and stuff, and um yeah, he was saying that we should maybe uh think about having a prototype for week six, which is next week. Yeah."
+EN2001a,A,EN2001a.sync.13,42.224,47.618,So we should probably prioritize our packages.
+EN2001a,A,EN2001a.sync.15,56.535,57.029,Mm.
+EN2001a,A,EN2001a.sync.17,79.967,80.541,Yeah.
+EN2001a,A,EN2001a.sync.19,121.848,122.231,Yeah.
+EN2001a,A,EN2001a.sync.21,155.456,161.802,"Hmm. Has has anyone actually looked at the Java code for the, huh? Hmm."
+EN2001a,A,EN2001a.sync.23,186.784,187.692,"Yeah, I think so."
+EN2001a,A,EN2001a.sync.25,252.231,257.619,"Yeah, I I don't know about the search functionality, that might be online. Depends how it's gonna work."
+EN2001a,A,EN2001a.sync.27,265.748,266.307,Yeah.
+EN2001a,A,EN2001a.sync.29,460.928,461.345,Mm-hmm.
+EN2001a,A,EN2001a.sync.31,479.6,480.439,"Yeah, that makes sense."
+EN2001a,A,EN2001a.sync.33,578.272,578.764,Hmm.
+EN2001a,A,EN2001a.sync.35,655.366,655.85,Hmm.
+EN2001a,A,EN2001a.sync.37,970.576,972.493,"Yeah, you just concatenate them together."
+EN2001a,A,EN2001a.sync.39,1105.927,1106.397,Hmm.
+EN2001a,A,EN2001a.sync.41,1131.44,1131.818,Yeah.
+EN2001a,A,EN2001a.sync.43,1134.406,1142.255,It just means it loads on demand. It only loads when it needs a particular type of file. Like when it's being accessed.
+EN2001a,A,EN2001a.sync.45,1160.736,1164.42,"Yeah, I think that's the idea, it just loads the particular ones it needs."
+EN2001a,A,EN2001a.sync.47,1167.464,1170.307,But if you were doing a search over the whole corpus you'd have to load them all.
+EN2001a,A,EN2001a.sync.49,1179.168,1179.635,Hmm.
+EN2001a,A,EN2001a.sync.51,1322.72,1323.029,Mm.
+EN2001a,A,EN2001a.sync.53,1490.178,1490.553,Hmm.
+EN2001a,A,EN2001a.sync.55,1491.599,1495.244,"Yeah, we do not want it in to develop a little tree display as well for multiple results."
+EN2001a,A,EN2001a.sync.57,1497.024,1498.813,"Yeah, but that'd be quite easy to do."
+EN2001a,A,EN2001a.sync.59,1503.504,1504.944,You just need to find the time stamp.
+EN2001a,A,EN2001a.sync.61,1510.209,1510.716,Yeah.
+EN2001a,A,EN2001a.sync.63,1549.104,1549.546,Yeah.
+EN2001a,A,EN2001a.sync.65,1638.807,1643.008,"Yeah, I think I think those segments for each utterance are split up."
+EN2001a,A,EN2001a.sync.67,1644.144,1644.744,Think so.
+EN2001a,A,EN2001a.sync.69,1663.44,1668.992,"Yeah, I'm pretty sure it's already there. Pretty sure that's already there. The the utterances are numbered."
+EN2001a,A,EN2001a.sync.71,1704.768,1705.159,Hmm.
+EN2001a,A,EN2001a.sync.73,1711.529,1712.277,"Yeah, I think so."
+EN2001a,A,EN2001a.sync.75,1745.59,1747.702,"Ye that's the impression I get, yeah."
+EN2001a,A,EN2001a.sync.77,1752.192,1752.568,Oh.
+EN2001a,A,EN2001a.sync.79,1783.616,1783.984,Hmm.
+EN2001a,A,EN2001a.sync.81,1786.076,1786.374,Ye
+EN2001a,A,EN2001a.sync.83,1787.135,1787.509,Mm.
+EN2001a,A,EN2001a.sync.85,1790.935,1791.75,"Yeah, uh"
+EN2001a,A,EN2001a.sync.87,1814.109,1814.499,Right.
+EN2001a,A,EN2001a.sync.89,1840.688,1841.189,Okay.
+EN2001a,A,EN2001a.sync.91,1850.334,1851.182,"Topics, yeah."
+EN2001a,A,EN2001a.sync.93,1858.944,1859.954,"Yeah, I think that's the right one."
+EN2001a,A,EN2001a.sync.95,1870.761,1871.152,Hmm.
+EN2001a,A,EN2001a.sync.97,1887.937,1888.347,Hmm.
+EN2001a,A,EN2001a.sync.99,1892.233,1892.755,Mm-hmm.
+EN2001a,A,EN2001a.sync.101,1910.233,1910.606,
+EN2001a,A,EN2001a.sync.103,2026.432,2026.917,Mm.
+EN2001a,A,EN2001a.sync.105,2059.889,2060.262,Hmm.
+EN2001a,A,EN2001a.sync.107,2101.632,2103.616,"Yeah, that'd be much more efficient to do that. Yeah."
+EN2001a,A,EN2001a.sync.109,2169.538,2170.06,Hmm.
+EN2001a,A,EN2001a.sync.111,2187.902,2188.424,Hmm.
+EN2001a,A,EN2001a.sync.113,2252.576,2254.001,"Yeah, you're able to do that in Java, yeah?"
+EN2001a,A,EN2001a.sync.115,2255.646,2256.053,Yeah.
+EN2001a,A,EN2001a.sync.117,2256.716,2257.051,
+EN2001a,A,EN2001a.sync.119,2278.033,2278.294,Huh.
+EN2001a,A,EN2001a.sync.121,2311.152,2311.719,Hmm.
+EN2001a,A,EN2001a.sync.123,2328.272,2344.288,"Yeah, I've had a b I've had a look at the the topic segments, how it's stored. And then yeah, th those are few per meeting, and it um well, it gives a time stamp and inside each one there's uh the actual like utterance segments."
+EN2001a,A,EN2001a.sync.125,2345.328,2347.792,And the list of them that occurred. And they're all numbered.
+EN2001a,A,EN2001a.sync.127,2349.2,2350.815,Um so that's where that's stored.
+EN2001a,A,EN2001a.sync.129,2358.304,2369.36,"Yeah, so I guess um if I'm gonna be segmenting it with a L_C_ seg then that's like same format I'd want to um put it back out in so it'd be equivalent."
+EN2001a,A,EN2001a.sync.131,2380.704,2383.392,"Well, like the integration. What do you mean, integration?"
+EN2001a,A,EN2001a.sync.133,2387.709,2388.3,Hmm.
+EN2001a,A,EN2001a.sync.135,2391.456,2394.024,I don't know. I don't think anyone's been allocated to do that yet.
+EN2001a,A,EN2001a.sync.137,2395.499,2395.738,
+EN2001a,A,EN2001a.sync.139,2400.937,2401.478,"Yeah, yeah."
+EN2001a,A,EN2001a.sync.141,2403.232,2403.913,"Yeah, definitely."
+EN2001a,A,EN2001a.sync.143,2420.192,2421.26,"Hmm, yeah."
+EN2001a,A,EN2001a.sync.145,2431.556,2433.361,"Yeah, it c could be difficult, yeah."
+EN2001a,A,EN2001a.sync.147,2447.584,2448.117,Yeah.
+EN2001a,A,EN2001a.sync.149,2449.168,2453.786,Well I guess the important thing is to get the crucial m modules built.
+EN2001a,A,EN2001a.sync.151,2454.909,2456.086,Ye yeah.
+EN2001a,A,EN2001a.sync.153,2457.578,2458.634,"Yeah, and then"
+EN2001a,A,EN2001a.sync.155,2460.656,2465.904,"Yeah, and then we'll maybe have to prioritize somebody into just integrating it."
+EN2001a,A,EN2001a.sync.157,2617.1,2617.524,Mm-hmm.
+EN2001a,A,EN2001a.sync.159,2627.584,2628.334,"Yeah, I think so."
+EN2001a,A,EN2001a.sync.161,2641.159,2641.762,Uh yeah.
+EN2001a,A,EN2001a.sync.163,2649.231,2654.958,"Hmm. Yeah, yeah. Jasmine, I thought you just said that you'd uh looked at extracting the text."
+EN2001a,A,EN2001a.sync.165,2663.472,2666.766,"Yeah. So you you said you did it in Python, yeah?"
+EN2001a,A,EN2001a.sync.167,2668.768,2686.534,"Yeah, did you use uh b the X_L_ uh X_M_L_ parser in Python? Right. Yeah, sounds pretty good. So um 'cause, yeah, I was having a look in it a look at it as well and I noticed the um the speakers are all in that separate file? So did did you have to combine them all and and then re-order them?"
+EN2001a,A,EN2001a.sync.169,2689.712,2690.129,Yeah.
+EN2001a,A,EN2001a.sync.171,2691.164,2691.867,"Ye yeah, c"
+EN2001a,A,EN2001a.sync.173,2693.008,2699.824,"Right. Yeah, so that's approach um well, I was going to do. So yeah, we may as well collaborate."
+EN2001a,A,EN2001a.sync.175,2708.527,2709.442,In the word files?
+EN2001a,A,EN2001a.sync.177,2728.768,2730.481,I'm not sure I what you mean.
+EN2001a,A,EN2001a.sync.179,2765.664,2766.138,Oh right.
+EN2001a,A,EN2001a.sync.181,2776.336,2776.72,Hmm.
+EN2001a,A,EN2001a.sync.183,2838.24,2838.608,Hmm.
+EN2001a,A,EN2001a.sync.185,2859.056,2862.018,Mm I thought they were local to th a particular meeting.
+EN2001a,A,EN2001a.sync.187,3099.536,3099.97,
+EN2001a,A,EN2001a.sync.189,3133.859,3135.264,
+EN2001a,A,EN2001a.sync.191,3446.785,3447.046,Hmm.
+EN2001a,A,EN2001a.sync.193,4099.36,4101.347,Mm is there anything else we should discuss?
+EN2001a,A,EN2001a.sync.195,4127.28,4133.041,"Yeah, should we not have like a group directory or something where we can put all our code in and that kinda thing?"
+EN2001a,A,EN2001a.sync.197,4136.608,4137.085,Hmm.
+EN2001a,A,EN2001a.sync.199,4149.152,4150.931,I've gotten mm hardly any
+EN2001a,A,EN2001a.sync.201,4151.322,4151.62,
+EN2001a,A,EN2001a.sync.203,4162.288,4162.804,Hmm.
+EN2001a,A,EN2001a.sync.205,4176.864,4179.761,"Yeah, we can ask Steve if um we can get space."
+EN2001a,A,EN2001a.sync.207,4185.632,4187.105,"Yeah, uh we could do that."
+EN2001a,A,EN2001a.sync.209,4188.212,4188.808,
+EN2001a,A,EN2001a.sync.211,4193.76,4195.797,"Yeah, I'm sure he had to deal with that last year."
+EN2001a,A,EN2001a.sync.213,4224.765,4225.131,
+EN2001a,A,EN2001a.sync.215,4245.471,4246.019,
+EN2001a,A,EN2001a.sync.217,4249.427,4250.134,
+EN2001a,A,EN2001a.sync.219,4254.84,4255.389,Yeah.
+EN2001a,A,EN2001a.sync.221,4387.44,4387.808,Hmm.
+EN2001a,A,EN2001a.sync.223,4415.443,4416.491,
+EN2001a,A,EN2001a.sync.225,4423.718,4424.475,
+EN2001a,A,EN2001a.sync.227,4437.668,4439.569,That sounds good.
+EN2001a,A,EN2001a.sync.229,4470.636,4471.143,Hmm.
+EN2001a,A,EN2001a.sync.231,4526.183,4526.632,Hmm.
+EN2001a,A,EN2001a.sync.233,4534.695,4536.784,"Yeah, that's what I'm gonna need."
+EN2001a,A,EN2001a.sync.235,4543.003,4543.527,Yes.
+EN2001a,A,EN2001a.sync.237,4544.503,4546.218,"Yeah, it's just mo changing it a bit."
+EN2001a,A,EN2001a.sync.239,4555.702,4556.112,Yeah.
+EN2001a,A,EN2001a.sync.241,4587.004,4592.068,"No, but uh that's what M_L_C_ seg does. It it marks the end of each segment."
+EN2001a,A,EN2001a.sync.243,4594.506,4594.822,Yeah.
+EN2001a,A,EN2001a.sync.245,4604.112,4604.488,Yeah.
+EN2001a,A,EN2001a.sync.247,4626.491,4626.975,Oh.
+EN2001a,A,EN2001a.sync.249,4636.493,4636.816,Yeah.
+EN2001a,A,EN2001a.sync.251,4638.176,4640.414,"Yeah, for me it's better if they're by meeting."
+EN2001a,A,EN2001a.sync.253,4715.712,4721.377,Then that'll be really easy to do once they've got the raw text. It's just a case of running the script.
+EN2001a,A,EN2001a.sync.255,4724.815,4726.525,"Yeah, I mean hopefully this week."
+EN2001a,A,EN2001a.sync.257,4746.736,4747.187,Alright.
+EN2001a,A,EN2001a.sync.259,4767.687,4768.358,And we could
+EN2001a,A,EN2001a.sync.261,5039.58,5041.36,Don't know. Suppose we're just getting on with all our
+EN2001a,A,EN2001a.sync.263,5042.432,5043.472,components. So
+EN2001a,A,EN2001a.sync.265,5044.724,5045.209,
+EN2001a,A,EN2001a.sync.267,5047.221,5049.192,I know. Wa
+EN2001a,A,EN2001a.sync.269,5059.413,5063.063,"Yeah. Yeah, he suggested that we could have an uh initial prototype."
+EN2001a,A,EN2001a.sync.271,5066.639,5072.336,"I know, I'd b I'd be surprised if we can get anything working by next week."
+EN2001a,A,EN2001a.sync.273,5081.05,5081.311,Alright.

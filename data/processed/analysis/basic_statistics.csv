@@ -1,0 +1,8 @@
+metric,value
+Transcript segments,945
+Total tokens,19271
+Tokens after stopword removal,6239
+Total lemmas,6239
+Unique lemmas,955
+Named entity mentions,259
+Number of speakers,5

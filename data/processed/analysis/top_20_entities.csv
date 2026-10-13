@@ -1,0 +1,21 @@
+rank,entity,entity_type,frequency
+1,one,CARDINAL,35
+2,X_M_L,PERSON,19
+3,two,CARDINAL,18
+4,first,ORDINAL,12
+5,Kay,PERSON,11
+6,Java,PERSON,11
+7,next week,DATE,5
+8,today,DATE,5
+9,Wednesday,DATE,5
+10,ICSI,ORG,5
+11,Rainbow,ORG,5
+12,second,ORDINAL,4
+13,Dave,PERSON,4
+14,three,CARDINAL,4
+15,I_D,ORG,4
+16,twelve,CARDINAL,4
+17,nine,CARDINAL,4
+18,Jonathan,PERSON,3
+19,five,CARDINAL,3
+20,new X_M_L,GPE,3

@@ -1,0 +1,61 @@
+text,label
+"Well, I'm half-way through. It's not working yet, but it will do.",NON_ACTION
+that everyone's um,NON_ACTION
+"We I think we have start and end times for words actually, but it's yeah, but it m it might s but it might sound crazy in the player. We should really maybe we can do that together at some point today that we check out how the player works. But there's maybe some merit in altogether doing it on an utterance level in the end.",ACTION
+Alright.,NON_ACTION
+"Yeah. Yeah, I guess we can probably process the data for all different series and then check which series is the best for the presentation. It sounds quite reasonable, nine megabyte. I mean if you think if it's r roughly a million words and nine characters per word sounds realisti",ACTION
+"So I think if today we decide on what data we wanna have now, and and later, maybe even today, we go and look at NITE X_M_L_ or some of us look at NITE X_M_L_ in a bit more detail, just trying to make some sense of that code and see how does the representation work in their system. And then sort of with that knowledge we should be able to then say okay, that type of NITE X_M_L_ data we wanna load into it, and this is how everyone can access it, and then we should be able to go from there.",ACTION
+Yeah.,NON_ACTION
+"Yeah, I think it's it the it sounded like they wanted to check out how well they were doing with overlapping and stuff, because basically it's like they're reading them at different speeds, but you know in which order they are said. Anyway. ICSI has some reasons for doing it. They must have been pissed off saying like numbers at the end of every meeting.",ACTION
+Uh yeah. Okay.,NON_ACTION
+"So it's only gonna use quite small documents, you see, to start with.",NON_ACTION
+"Yeah, nothing in the afternoon. I've got nothing in the afternoon. So",NON_ACTION
+"Well if we're gonna dump the part of it into a database anyway, we might as well dump all the fields we want into the database, calculate everything from there. Then we don't even have to worry that much about the underlying X_M_L_ representation. We can just query it.",ACTION
+"Yeah, if they are already, there's it's easy but it would be possible.",NON_ACTION
+"Okay. I wa I was just worried about the total memory complexity of it. But I I completely admit, I mean, I just sort of like th took that from some thing that Jonathan once said about not loading everything. But maybe I was just wrong about it. How many utterances w",NON_ACTION
+Hmm.,NON_ACTION
+"Yes. Yeah, yeah. So I would probably just concatenate all my um text chunks and then let's say m I will run over it.",ACTION
+"Yes, I did. But um I've only just got the notes. I have to still have uh to order everything by the time and",ACTION
+"Yeah, did you use uh b the X_L_ uh X_M_L_ parser in Python? Right. Yeah, sounds pretty good. So um 'cause, yeah, I was having a look in it a look at it as well and I noticed the um the speakers are all in that separate file? So did did you have to combine them all and and then re-order them?",ACTION
+"Yeah, or but also like all these elements like like the loading and, yeah, integration and and like handling the data loading and stuff.",NON_ACTION
+"Let's check that out. Um I'll p I'll probably ask Jonathan about it. So alternatively, if we realise we can't do the whole thing in one go, we can probably just process some sort of meta-data, you know what I mean, like sort of sort of for the whole series",ACTION
+"What I just realised, we should really t keep different serieses completely separate for virtually all purposes. Just let's be careful about that, because",ACTION
+"Having said that, are we allowed to take a copy of the ICSI corpus? Something we should probably ask before we do it.",ACTION
+"Ah it's just to test the system, I think.",NON_ACTION
+Yeah. Well I've got like a few hours free. Like after this.,NON_ACTION
+"Yeah, should we not have like a group directory or something where we can put all our code in and that kinda thing?",NON_ACTION
+"Like duplication of effort and stuff, and um yeah, he was saying that we should maybe uh think about having a prototype for week six, which is next week. Yeah.",ACTION
+Mm-hmm.,NON_ACTION
+"Yo, Forrest Hill, whatever one's easier to discuss stuff, I don't know.",NON_ACTION
+word. So we have to,ACTION
+Um we would have to look at that.,ACTION
+You s uh you said you are currently in uh implementing the idea. What exactly are you computing?,NON_ACTION
+"Yes, I'm gonna build a dictionary then from that. Like just a list of the words that maybe a list of the words with the frequencies or a list of the words sorted alphabetically or numerically. What what does anyone want? Does this there any wishes for dictionaries?",NON_ACTION
+So we should basically make our own X_M_L_ document in memory,ACTION
+Yeah.,NON_ACTION
+Um,NON_ACTION
+Didn't have a look at our meetings.,ACTION
+Right.,NON_ACTION
+Mm.,NON_ACTION
+Mm they have to read numbers from,ACTION
+"See, and then if you're working with just a topic segment in there, it's the only thing you have to worry about. And like each time you want a higher level, you just need to go up the tree. And as long as your algorithm respects that, then we can just",ACTION
+"Oh yeah. No but I mean like how how Jasmine does it internally I don't know, but it's probably, yeah, you probably have to work on word levels for importance. But there should be ways of easily going from a word level to an utterance level. Okay.",NON_ACTION
+They are on,NON_ACTION
+Hmm.,NON_ACTION
+W using which tool are you talking about?,NON_ACTION
+"Uh I can get all the raw text, but it has to be ordered still. So",ACTION
+Yes.,NON_ACTION
+"Okay. So at at every level everyone has to be careful to really just take even at the highest level, just take stuff from one series and not merge stuff from different series together because they would probably be just majorly messy. Yeah, so so t so like if even if we make one single text file which has the whole corpus, sort of our corpus, that would still be from one series only. Wou but it what you're producing at the moment is like individual text files that sort of have the raw text for a whole a meeting as a whole or",ACTION
+"And for all together, like the display itself, I think we are easier if we if it's sitting on the X_M_L_ than if it's sitting on the S_Q_L_ stuff, because if it's sitting on the X_M_L_, we have the the NITE X_M_L_ framework with all its functionality for synchronizing through all the different levels whenever there's a change, whenever something's moving forward and stuff. And we can just more or less look at their code, like how their player moves forward, and how that moving forward is represented in different windows and stuff. So I think in the actual browser itself I don't wanna sit on the S_Q_L_ if we can sit on the X_M_L_ because sitting on the X_M_L_ we have all we have so much help. And for y for like the p the calculations that we're doing apart from the search, it seems that everyone needs some special representations anyway.",ACTION
+"Yeah, I mean I hope it will be the same for the words. It's just what I",NON_ACTION
+Should be very,NON_ACTION
+"It doesn't need ordered, no.",NON_ACTION
+So I'll create a dictionary.,ACTION
+Okay.,NON_ACTION
+Mm-hmm.,NON_ACTION
+"Yeah. Yeah, no, we'd we'd be completely using like the whole infrastructure and basically just I mean the main difference really between our project and theirs really is that we load a different part of the data. But otherwise we're doing it the same way that they are doing it. So we just we're sort of running different types of queries on it. We in a sense we I think we are running queries, it's not just about um what we load and what we don't load, but we're l running queries in the sense that we dynamically select by by weights, don't we? That we have to check how fast that is, like to say give us all the ones that whether that works with their query language, whether that's too many results and whether we shou",ACTION
+Ordered. Only words.,NON_ACTION
+But there is no I_D_ for an utterance I think. It's just for individual words. So how do we do that then? We for utterances as well.,NON_ACTION
+"Yeah, I mean I bet there would be packages",NON_ACTION
+W what segments now?,NON_ACTION
+"So it it seems that the data structure isn't a big problem and that basically we don't have to have all these massive discussions of how we exactly interact with the data structure because most of our work isn't done with that data structure in memory in the browser, but it's just done off-line and everyone can ha represent it anyway they want as long as they sort of store it in a useful X_M_L_ representation in the end. So like",ACTION

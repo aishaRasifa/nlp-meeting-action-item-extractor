@@ -1,0 +1,179 @@
+text,label
+Are we still gonna go for dumping it into a database? Are we still gonna dump it into a database?,NON_ACTION
+"And I think it even has uh its own annotation, like digits or something. So that should be really easy to cut out.",NON_ACTION
+Hmm yes.,NON_ACTION
+"And um what we consider a document's gonna depend on our context, I think. 'Cause if we're looking at the whole lot of meetings, we'll consider each meeting a document in sort of terms of this algorithm. And if we're viewing like say just a small topic segment you might look at even each utterance as a small document.",ACTION
+I d have no idea.,NON_ACTION
+"But I don't know, I mean that",NON_ACTION
+Uh Wednesday I've got a nine 'til twelve.,NON_ACTION
+"Right. Yeah, so that's approach um well, I was going to do. So yeah, we may as well collaborate.",NON_ACTION
+Like so I can use my home machine.,NON_ACTION
+"So we probably we don't even have to change the utterance document, right, because the whole way, like the whole beauty of the NITE X_M_L_ is that it ties together lots of different files. So we can just create an additional X_M_L_ file which for every utterance like the utterances have I_D_s I presume, some references. So we just we tie uh p just a very short X_M_L_ file, which it's the only information it has that has whatever a number for for the um weight, for the information density, and we just tie that to the existing utterances and tie them to the existing speaker changes.",ACTION
+"I know but uh b I guess we can do it like several people together, it's probably just those people have to work together a lot and very closely and just make sure that they're always f understand what the other one is doing.",ACTION
+"Yeah, I know.",NON_ACTION
+"'Kay. So the only thing that yeah, so the only thing that would happen basically if I double-click let's say from the whole meeting series on a single meeting, is that the zoom level changes. Like the th the start and the end position changes and the zoom level changes.",ACTION
+"Well we don't even need to do that, 'cause if we got our information density calculated off-line, so all we do is treat the whole lot as one massive document. I mean they'll it's not gonna be so big that we can't load in a information density for every utterance. And we can just summarise based on that.",ACTION
+I'm not biased.,NON_ACTION
+"Yeah, and then",NON_ACTION
+Yeah.,NON_ACTION
+I don't think that's a good idea because isn't it like that we expect th there to change over i b with the different topic segments more? That they talk about something different in each different topic segment.,ACTION
+Okay. Okay. Okay. Yeah. So I guess that would be solvable if not.,NON_ACTION
+Uh I thought about words.,NON_ACTION
+"Well if we're gonna do that, we should try and store everything in in an X_M_L_ format as well.",ACTION
+"Um and I think um for all the corpus, it's just from I know from other times, it's um nine megami byte to have I mean should be should be similar to have the words. Should be.",NON_ACTION
+"Yeah, everything that's a word has a sti time stamp.",NON_ACTION
+Can I convert these probabilities back into frequencies?,NON_ACTION
+"If we if we do it this way like we f we have to discuss that if we do it this way, then we should probably find some abstraction model, so that the interface in the sense like deals with it as if it's same so that the interface doesn't really have to worry whether it's a meeting in the whole meeting series or a segment within a meeting, you know what I mean? And that's probably stuff that we have to sort of like process twice then. Like for example that like the summary of a meeting within the whole meeting corpus or meeting series y is meeting series a good word for that? I don't really know what how to call it. You know what I mean, like not not the whole corpus, but every meeting that has to do with one topic. Um so in in the meeting se series so that a summary for a meeting within the meeting series, are sort of",ACTION
+"The other hand, I mean it shouldn't be like should be like fifty mega-byte in RAM or something, it shouldn't be massive, should it? Actually fifty hundred megabyte is quite big in RAM.",NON_ACTION
+"Yeah, r",NON_ACTION
+How are we gonna do a demonstrator next week? My God.,NON_ACTION
+Yeah. 'Cause that'd be really useful is if we had a big directory. Especially for transferring stuff.,NON_ACTION
+"It's like that's one the papers I read, that's um one things they did right at the beginning is they've got this big s stop-list and they just ignore all of those throughout the experiment.",ACTION
+"So if this lazy loading works, then this should definitely fit into I mean not memory then because it wouldn't all be in memory at the same time. So if we just have those sort of that information like a long list of all the utterances slash segments and like short or smaller lists which give weight to them.",NON_ACTION
+Yeah.,NON_ACTION
+"And if the time stamps are on a word level, then we b somehow have to extract time stamps for utterances where they start.",ACTION
+It'd be useful. I don't know who you see about that though.,NON_ACTION
+"Mm-hmm. Ah well, let's go. Sorry.",ACTION
+What do we have to demonstrate?,ACTION
+"Yeah, that's what I thought as well, that you that probably the the topic segment level is the most um informative for the words.",NON_ACTION
+Huh.,NON_ACTION
+"Well what I think I might try and build is basically a class that you just feed it a linked list of um different wave-forms, and it will just string them all together with maybe, I don't know, tenth of a second silence in between each one or something like that.",ACTION
+"So quite small then. So you could just um you could use just the same thing we used to build the big dictionary. You just do that on-line 'cause that won't take long to build a little dictionary that big, will it. I mean just use the same tool that we use. Yeah.",NON_ACTION
+"Yeah, I mean hopefully this week.",NON_ACTION
+Yeah.,NON_ACTION
+"Yeah, but w it don't you have to like go sort of like for in a document versus the whole thing? Isn't that how it works that you c look look at r",ACTION
+"Okay. Okay, that",NON_ACTION
+That's not really what I meant. But I think I have to think more about what I meant.,ACTION
+I would've thought that um I think all the collections and things implement serializable already.,ACTION
+"Yeah, and and a topic's basically they are just on the I_D_, probably with a start time or something, and and the utterances referenced to those topics I guess. So the topics don't contain any redundant thing of like showing the whole topic again, but they just sort of say a number and where they start and where they finish. And the utterances then say which topic they belong to.",ACTION
+Hmm.,NON_ACTION
+Okay.,NON_ACTION
+"Okay, so maybe we should build a b store a mean measure for the segments and meetings as well?",ACTION
+But if you were doing a search over the whole corpus you'd have to load them all.,NON_ACTION
+Mm-hmm.,NON_ACTION
+"So I think as long as you build an algorithm that respects whatever structure's in the file, rather than imposing its own structure",NON_ACTION
+And then just I can change that to work on whatever.,ACTION
+Don't know. Suppose we're just getting on with all our,NON_ACTION
+Mm-hmm.,NON_ACTION
+"I I thought we would just have like um one big summary um with all the uh different importance levels um displayed on it. And depending on what our um zoom level is, we just display a part of it.",NON_ACTION
+Mm-hmm.,NON_ACTION
+Then that'll be really easy to do once they've got the raw text. It's just a case of running the script.,NON_ACTION
+But it'll need to be calculated at word level though because otherwise there won't be enough occurrences of the terms to make any meaningful sense.,ACTION
+"And that's as much as we really need. And of cou and they also have a time a time information of course. Hmm? And a and a s and a speaker information, yeah.",NON_ACTION
+"As soon as somebody gives me the raw text of the whole thing, I can probably just implement like a five line Java hash table frequency dictionary builder and see",ACTION
+"Yeah, and do you want",NON_ACTION
+"Yeah, but I'd uh I would like to look at the frequency of words in my um in the regions of text I found out to be interesting. So I wouldn't need it. It it would have to be re-calculated only for my segments.",ACTION
+And also um there are different um combinations of letters. B_R_E_ and something like that. Is it everything ordered are the time stamps global or uh are they local at any point?,NON_ACTION
+'Kay.,NON_ACTION
+They,NON_ACTION
+"Are we doing it on th the whole thing on the utterance level? Or are we doing it on word level, like the information density calculation?",NON_ACTION
+That sounds good.,NON_ACTION
+Mm-hmm. Mm. So so um I will probably send um just one file of the first meeting um to all those who need it so that you can have a look whether that's what you want.,ACTION
+"Yeah, but I think actually like at the moment the integration comes first, I mean it's sort of at the moment the building the browser comes first, and then only comes the creating new sophisticated data chunks, because that's sort of the whole thing about having a prototype system which is more or less working on on chunk data. But it at least we have the framework in which we can then test everything and and look at everything. 'Cause before we have that, it's gonna be very difficult for anyone to really see how much the work that they're doing is making sense because you just well I guess you can see something from the data that you have in your individual X_M_L_ s files files that you create, but it would be nice to have some basic system which just displays some stuff.",NON_ACTION
+"They'd probably they'd like you more if you S_S_H_ uh into another computer, compress it there and then sort of copy it into the into the gateway machine.",NON_ACTION
+"Yeah. No. But I was thinking of the topic segmentation now and and f for that there would only be one, right, because it's sort of like it's just a time window.",NON_ACTION
+Hmm.,NON_ACTION
+Do we have to demonstrate something next week?,ACTION
+Okay.,NON_ACTION
+you also need how many times things occur within each document.,NON_ACTION
+"Yeah, I I don't know about the search functionality, that might be online. Depends how it's gonna work.",NON_ACTION
+"So somebody should sort of be the one person who's who understands most about what's t centrally going on with with the with the project, like with the with the browser as a whole and where the data comes in and",NON_ACTION
+Yeah. I mean it has to go through the gateway. But,ACTION
+Okay. What time do you wanna do?,NON_ACTION
+"Oh, mine's just gonna use the um hash map one in um Java. 'Cause I'm only gonna do it on small documents. It's just like bef until the information density is up and running. Just something to get give me something to work with.",NON_ACTION
+"I can try to do it and send it to you. Pe and you have a look at it, will it make sense for what you want.",ACTION
+And that will obviously make it much easier to display.,NON_ACTION
+So we should probably prioritize our packages.,ACTION
+Well otherwise we probably have to go over it and like add some integer that we just increment from top to bottom sort of to every utterance as an as an I_D_ some type. Or un or try to understand how NITE X_M_L_ I_D_s work and maybe there's some special route we have to follow when we use these I_D_s. It's alm hmm?,ACTION
+Mm-hmm.,NON_ACTION
+And then seriali and then write the serialization to a file. So you want like a se like a file which is the serialization of a hash table.,ACTION
+That's easy. You just like create a new X_M_L_ document in memory.,ACTION
+"Yeah, but I'm I'm still worried. Like for example for the display, if you actually if you want a display uh like for the whole series, the information density levels based on and and the f and the only granularity you have is individual utterances, that means you have to through every single utterance in a series of seventy hours of meetings.",ACTION
+"Yeah, that would mean understanding the NITE X_M_L_ X_M_L_ sort of format in a lot more detail. We should I think we should just have a long session in the computer room together and like now that we know a bit more what we want, take a closer look at NITE X_M_L_.",ACTION
+"Yeah, so Dave, you said you need the frequency counts actually for per document, would you say, not for the whole thing?",ACTION
+"If you're into it, can you make a text file which just like makes just the words? 'Kay. Do you want it straight flowing, 'cause I would need something that marks the end of uh of uh is is yours segmented by topics then that like is there any information that you have to the topic, to the automated topic topic segmentation? Oh then I need something different later anyway. Okay, but for now, if you c",ACTION
+"If you're doing it in Java, could you um serialize the output as well as writing it to a file? If you're doing it in Java, could you serialize the um dictionary, yeah, as well as writing it to a file?",ACTION
+"Like 'cause frequency would be useful, I think. But um depending on the context, the size, and what we consider a document in the sense of calculating T_F_I_D_F_ is gonna change.",ACTION
+Yeah.,NON_ACTION
+So we're thinking of like maybe just storing it on a per utterance level.,NON_ACTION
+Mm is there anything else we should discuss?,ACTION
+"Yeah, but do they automatically write to the file anyway I'll I'll figure that out. We don't have to",ACTION
+"Okay. You're gonna put that as an output of yours, the segmentation. Okay, so for now can you create like sort of just uh a dump which is pure text, just pure text so that I can get a dictionary and you can work on that for your topic segmentation. And",ACTION
+Mm-hmm.,NON_ACTION
+"Okay. Okay, so I mean so that means that there's probably, even if you go on an per utterance level, there's still some merit on within utterances cutting out stuff which clearly isn't relevant at all, and that maybe also for the audio we'd have to do. So let's say we play the whole au phrase, but then in addition to that, we have some information that says minus that part of something. That's okay, that we can do.",ACTION
+"Ah, okay. So that is that only by type of file. Like if if if the same thing is in different files, would it then maybe like, you know, if if utterances are split over three or ten or w hundred different files, is then a chance maybe that it doesn't try to load them all into memory at the same time, but just",NON_ACTION
+"Frequencies. Yeah. Well I guess as soon as we have the raw text, we can probably just start with the Java hash map and like just hash map over it and see how far we get. I mean we can probably on a machine with a few hundred megabyte RAM you can go quite far. You can write it on beefy. So even if it goes wrong and even if it has a million words be",ACTION
+I think it's 'cause we had to specify it ourselves that it's not as um like focus the specification of most um work we have to do.,ACTION
+It's gonna need some th th thought of how we,NON_ACTION
+"Actually maybe it doesn't actually matter. Maybe if you just do it once at the highest level, it it will be fine. But I was just thinking it might be difficult to calculate the T_F_I_D_F_ off-line for all the different levels we might want. 'Cause if we're gonna allow disjoint segments for example, then how are we gonna know what's gonna be in context at any given time? But I suppose if you just did it globally, treating a meeting as a document, it'd probably still be work out fine, because you'd only be comparing to ones within the context.",NON_ACTION
+Okay.,NON_ACTION
+"Well like the ideas we're calculating are information density all off-line first for every utterance in the whole corpus, right? So what you do is you say if you're looking at a series of meetings, you just say well our whole document comprises of all these stuck together. And then all you have to do is sort them by j information density. Like maybe weighted with the search terms, and then extract them. I don't think it's too slow to do on-line, to be honest.",NON_ACTION
+"Yeah, and then you sort of feed the time stamp to and the NITE X_M_L_ central manager, and that central manager alerts everything that's there, like alerts the skim like the the audio display, alerts the text display, alerts the visual display and says we have a new time frame and then they all sort of do their update routines with respect to the current level of zoom. So how much do they display, and starting position at where the or maybe the mid-position of it, I don't know, like w if start where the thing was found or if that thing wa was found it's in the middle of the part that we display, that I don't know. But that we can decide about, but a general sort of",ACTION
+No.,NON_ACTION
+"Ah yeah, but that would have to be the temp directory off the machine you can S_S_H_ into directory of S_S_H_.",NON_ACTION
+"Yes. But I I mean as um the start uh start times um start for each meeting at zero, you could just probably just um add the um final second time to the next meeting and so on and just put it all together. But then we would have to change um the information about who on which channel it was set, um to by which person it was set. And that is actually stored in another X_M_L_ document.",ACTION
+"Oh, you don't wanna have different counts for each chunk, but just like sort of for for something from old chunks. Oh yeah, no, that's yeah, so once I write an ar like w if I write like an algorithm which does a hash um table dictionary with frequency from a raw text, then the raw text can be anything. So how far are we g uh how f how far are you getting raw text out of it do you think?",ACTION
+Okay.,NON_ACTION
+"Oh yeah, um yeah. No. But also I might like the the similarity thing, like my just my matrix itself for my stuff, I c I I think I can do that fairly quickly because I have the algorithms. Yeah, I think today's meeting is really the one where we where we sort of settle down the data structure and as soon as we have that, uh probably like after today's meeting, we then actually need to",ACTION
+"Because if we're doing Like I think for for the information density we uh we should calculate it on the lowest level, not on the highest. But like 'cause",ACTION
+Yeah.,NON_ACTION
+Yeah.,NON_ACTION
+"No, how long you would have to program something.",NON_ACTION
+"Okay. Okay. So but but generally utterances is that which we just called uh sorry, segments is that which we just called utterances now. Like it's it's the sa it's sort of like one person's contribution at a time sort of thingy dingy.",NON_ACTION
+Mm.,NON_ACTION
+Why do we have to do it in memory? But that stuff's so,ACTION
+"I don't know. I have no idea. But it must have like classes for dealing with files. And if it has classes for concatenating files, you can do it in memory. So",ACTION
+Mm-hmm. Mm-hmm.,NON_ACTION
+Hmm?,NON_ACTION
+"You know, if 'cause if it i let's say I mean if if their query language is strange and if it would return b ten million results and it can't handle it, then we can just write our individual components in the way that they know which what the threshold is. So they still get all the data and just they internally say oh no, this is less than three and I'm not gonna display it or something.",ACTION
+"'Cause if we are, I reckon we should all read our classes out of the database. It'll be so much easier.",ACTION
+"Uh I'm not quite sure, I have only seen that the uh the individual words have got an I_D_.",NON_ACTION
+"Yeah, if you if you enter the big room, in the right-hand corner, I think. Um the thing is like you can only burn from the local file-system. So if it's from s well actually I think if it's mounted, you can directly burn from there, but the problem is I have my data on beefy and so I have to get it into the local temp directory and burn it from there. But you can burn it from there.",ACTION
+Well you need the raw frequency as well. But um,NON_ACTION
+"Yeah, not for each meeting series. I didn't do that yet.",NON_ACTION
+pretty much it?,NON_ACTION
+"'Kay. Um I just um wondered, so who's uh then doing um the frequencies on on the words, because I'm I think I will also um I could also make use of it um for the agreement and disagreement thing. Because I um I in my outline I talked about um using the um discourse acts first, and um then in the chunks of text I found looking for word patterns and so on. So um I would for example need the um most freq um frequent words. So if you cut off all that, I'd won't be use or",NON_ACTION
+"Um yeah. So far I extracted um the dura durations. But it's from the words file. So I could just um contatenate concatenate um the words instead of the durations, and it should I mean",NON_ACTION
+"Okay, well that's good, because for the dictionary the order doesn't make a difference, does it? So yeah, so um I'll get that from you and I'll write the hash table which goes over that and creates a dictionary file. So for the dictionary, is it okay if I do, whatever, word blank frequency or something? Just p could everybody sort of start from that? I mean I guess we can",ACTION
+"Yeah, sort of like off-line create a virtual meeting, which which basically treats the meeting series as if it was a meeting, and treats the individual meetings within the series as if they were segments, and treats the individual segments within meetings as if they were um utterances. You know, so we just sort of we shift it one level up. And in that way we could probably use the same algorithm and just like make vir like one or two ifs that say okay, if you are on a whole document uh a whole series level and that was a double-click, then don't just go into that um segment, but load a new file or something like it, but in general use the same algorithm. That would be an alternative if we can't actually load the whole thing and",ACTION
+"Uh mine's gonna be mostly using the off-line. But the actual stuff it's doing will be on-line. But it won't be very um processor intensive or memory intensive, I don't think.",NON_ACTION
+"For every single word? Oh, okay.",NON_ACTION
+"If we need just frequencies, maybe we should just calculate them by using Perl or something. I don't know.",ACTION
+"Okay, so yeah, so we have those, and and then we have some f field somewhere else which has",NON_ACTION
+"Yeah yeah. No, you you we should be able to get it at I don't think it was I don't think it was a gigabyte.",ACTION
+"Because if we if we average average over over a whole utterance all the words, and there are quite unimportant words in there, but quite important words as well, I think we should just disregard the the",ACTION
+Because um I I think it's actually very similar to what I did for my um speaker um uh extraction and I think I would ch perhaps have to change two lines of codes to get you um for each meeting a file that says fr from um this millisecond to this millisecond there was this sequence of words.,ACTION
+Can you not do that?,ACTION
+"Um Dave, if you would or actually for well, if you're doing I_D_F_s or you whatever you call your your frequencies, I always mix up the name, uh you need some dictionary for that at some point though, like you need to have some representation of a word as not not that specific occurrence of that word token, but of of of a given word form. Because you're making counts for word forms, right? Yeah, so we should work together on that, because I need a dictionary as well.",ACTION
+So I'm s not sure if I got it. I was,NON_ACTION
+Broad-band.,NON_ACTION
+Yeah. You always could have a look at the time stamps and then take the ones that uh belong together to form an utterance.,ACTION
+"Yeah. No. I'm just thinking for this whole thing of like a different level, sort of cutting out different different pieces, whether we do that through a query where we say give us everything that's ab above this and this weight, or whether we skip the same infrastructure, but every individual module like the player and the display say like they still get sort of all the different utterances, uh all the different pieces, but they say oh, this piece I leave out, because it's below the current threshold level.",NON_ACTION
+"I don't think it's really that much of a problem because if it's too big, what we can do is just well all the off-line stuff doesn't really matter. And all we can do is just process a bit at a time. Like for summarisation, say we wanted a hundred utterances in the summary, just look at the meeting, take the top one hundred utterances in each other meeting. If it scores higher than the ones already in the summary so far, just replace them. And then you only have to process one meeting at a time.",ACTION
+"Yeah, they will just I will just take I would uh take over the names they have anyway.",NON_ACTION
+I don't think that will do it. We'll have to buffer it.,ACTION
+"Yeah, that's what I'm gonna need.",NON_ACTION
+Um,NON_ACTION
+So why do we need to have two X_M_L_ trees in memory at once?,ACTION
+"Oh yeah, let's take that.",ACTION
+"Hmm. Yeah, we have to probably cut that out anyway for our project, I don't know. It's probably gonna screw up a lot of our data otherwise. If Not sure if it what it does to document It would probably make the yeah, if if you have segments for that, probably the",ACTION
+"Well the nice thing about that is it will automatically be in sentences. Well more or less. So it will make more sense, and if you get just extract words.",NON_ACTION
+Maybe you should send a support form.,ACTION
+I know. Wa,NON_ACTION
+We can just change the code.,ACTION
+And it should be weighted by stuff like the hot spots and um the key-words in the search and stuff like that.,NON_ACTION
+"Yeah, but it at the moment but at the moment it's also an implementational level. Like with the data structures, I'm just like over these vague ideas of some trees, I'm f",NON_ACTION
+"Okay, cool. 'Cause I'll need that then when it's done.",NON_ACTION
+"So why does it fail then in the first place? Then it shouldn't ever fail, because then it should never",NON_ACTION
+"Hmm, yeah.",NON_ACTION
+So uh only words um per meeting series.,NON_ACTION
+Certain,NON_ACTION
+Put it on to C_D_. I can if I get down I can put to C_D_.,NON_ACTION
+"No, that's not necessary.",NON_ACTION
+Yep. How would we do that? By just making like it w read write for everyone.,ACTION
+"Yeah. Ma maybe there's some merit of going altogether for utterance level and not even bother to calculate I mean if you have to do it internally, then you can do it. But maybe like not even store the importance levels for individual words and just sort of rank utterances as a whole.",ACTION
+Is the is the data always clearly split up by different series? Uh like is it easy to just pick one,NON_ACTION
+"I've looked looked at the documentation and n like seen enough to make me think that we want to use the NITE X_M_L_ framework because um they have a good a event model that synchronizes sort of the data and and every display element. So that takes a lot of work away from us. Sort of that would be a reason for staying within their framework and using their general classes. But beyond that I haven't looked at it at all, which is something we should really do. Who actually like for this whole discussion I mean, who of us is doing stuff that is happening on-line and who of us is doing stuff that's happening off-line? Like my data is coming c",ACTION
+Why does it need to be classified into like different segments?,ACTION
+"Yeah, you'd have to count it yourself, yeah.",NON_ACTION
+"Yeah. Should be, yeah.",NON_ACTION

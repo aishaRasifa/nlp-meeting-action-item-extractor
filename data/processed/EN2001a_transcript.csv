@@ -1,0 +1,1015 @@
+meeting_id,speaker,segment_id,start_time,end_time,text
+EN2001a,E,"EN2001a.sync.1,296",3.168,3.968,'Kay.
+EN2001a,E,"EN2001a.sync.1,298",5.463,6.103,Gosh.
+EN2001a,A,EN2001a.sync.3,5.496,6.07,Okay.
+EN2001a,E,"EN2001a.sync.1,300",10.454,10.953,'Kay.
+EN2001a,A,EN2001a.sync.5,11.04,15.632,Does anyone want to see uh Steve's feedback from the specification?
+EN2001a,E,"EN2001a.sync.1,302",16.736,18.146,Is there much more in it than he d
+EN2001a,D,EN2001a.sync.817,16.98,19.758,I I dry-read it the last time..
+EN2001a,A,EN2001a.sync.7,18.883,19.373,Right.
+EN2001a,E,"EN2001a.sync.1,304",18.985,20.816,Is there much more in it than he said yesterday?
+EN2001a,D,EN2001a.sync.819,20.944,21.391,
+EN2001a,A,EN2001a.sync.9,21.392,25.857,"Not really, um just what he's talking about, like duplication of effort and"
+EN2001a,E,"EN2001a.sync.1,306",22.928,23.312,Mm.
+EN2001a,E,"EN2001a.sync.1,308",25.001,27.472,Hmm. Hmm?
+EN2001a,A,EN2001a.sync.11,28.033,40.152,"Like duplication of effort and stuff, and um yeah, he was saying that we should maybe uh think about having a prototype for week six, which is next week. Yeah."
+EN2001a,D,EN2001a.sync.821,38.661,39.467,Next week.
+EN2001a,A,EN2001a.sync.13,42.224,47.618,So we should probably prioritize our packages.
+EN2001a,E,"EN2001a.sync.1,310",46.352,85.233,"Yeah, now I'd say if for the prototype if we just like wherever possible p chunk in the stuff that we have um pre-annotated and stuff, and for the stuff that we don't have pre-annotated write like a stupid baseline, then we should probably be able to basically that means we focus on on the interface first sort of, so that we we take the the ready-made parts and just see how we get them work together in the interface the way we want and and then we have a working prototype. And then we can go back and replace pieces either by our own components or by more sophisticated compo po components of our own. So it's probably feasible. The thing is I'm away this weekend. So that's for me"
+EN2001a,A,EN2001a.sync.15,56.535,57.029,Mm.
+EN2001a,B,EN2001a.sync.277,78.696,79.168,Yeah.
+EN2001a,A,EN2001a.sync.17,79.967,80.541,Yeah.
+EN2001a,B,EN2001a.sync.279,84.208,94.825,"Yeah, I mean if we just want to have um some data for the user face, could even be random data. Uh mm mm"
+EN2001a,E,"EN2001a.sync.1,312",92.885,112.977,"Oh yeah, um yeah. No. But also I might like the the similarity thing, like my just my matrix itself for my stuff, I c I I think I can do that fairly quickly because I have the algorithms. Yeah, I think today's meeting is really the one where we where we sort of settle down the data structure and as soon as we have that, uh probably like after today's meeting, we then actually need to"
+EN2001a,D,EN2001a.sync.823,93.699,94.332,Yeah.
+EN2001a,B,EN2001a.sync.281,103.984,104.692,"Yeah, I'm"
+EN2001a,D,EN2001a.sync.825,109.712,110.27,Yeah.
+EN2001a,E,"EN2001a.sync.1,314",114.576,126.784,well go back first of all and look at NITE X_M_L_ to see in how far that that which we want is compatible with that which NITE X_M_L_ offers us. And then just sort of everyone make sure everyone understand the interface.
+EN2001a,A,EN2001a.sync.19,121.848,122.231,Yeah.
+EN2001a,E,"EN2001a.sync.1,316",128.992,157.422,"So I think if today we decide on what data we wanna have now, and and later, maybe even today, we go and look at NITE X_M_L_ or some of us look at NITE X_M_L_ in a bit more detail, just trying to make some sense of that code and see how does the representation work in their system. And then sort of with that knowledge we should be able to then say okay, that type of NITE X_M_L_ data we wanna load into it, and this is how everyone can access it, and then we should be able to go from there."
+EN2001a,A,EN2001a.sync.21,155.456,161.802,"Hmm. Has has anyone actually looked at the Java code for the, huh? Hmm."
+EN2001a,E,"EN2001a.sync.1,318",159.725,160.349,No.
+EN2001a,D,EN2001a.sync.827,160.252,160.784,No.
+EN2001a,E,"EN2001a.sync.1,320",161.552,198.046,"I've looked looked at the documentation and n like seen enough to make me think that we want to use the NITE X_M_L_ framework because um they have a good a event model that synchronizes sort of the data and and every display element. So that takes a lot of work away from us. Sort of that would be a reason for staying within their framework and using their general classes. But beyond that I haven't looked at it at all, which is something we should really do. Who actually like for this whole discussion I mean, who of us is doing stuff that is happening on-line and who of us is doing stuff that's happening off-line? Like my data is coming c"
+EN2001a,A,EN2001a.sync.23,186.784,187.692,"Yeah, I think so."
+EN2001a,E,"EN2001a.sync.1,322",210.56,210.882,Hmm?
+EN2001a,C,EN2001a.sync.548,211.312,220.896,The basic word importance is off-line as well. The combined measure might not be if we want to wait what the user has typed in into the search.
+EN2001a,E,"EN2001a.sync.1,324",213.136,213.689,Yeah.
+EN2001a,E,"EN2001a.sync.1,326",218.33,218.954,Okay.
+EN2001a,E,"EN2001a.sync.1,328",220.946,221.611,Okay.
+EN2001a,D,EN2001a.sync.829,222.016,232.245,"Uh mine's gonna be mostly using the off-line. But the actual stuff it's doing will be on-line. But it won't be very um processor intensive or memory intensive, I don't think."
+EN2001a,E,"EN2001a.sync.1,330",228.896,229.353,'Kay.
+EN2001a,E,"EN2001a.sync.1,332",231.608,250.619,"So basically apart from the display module, the i the display itself, we don't have an extremely high degree of interaction between sort of our modules that create the stuff and and the interface, so the interface is mainly while it's running just working on data that's just loaded from a file, I guess."
+EN2001a,E,"EN2001a.sync.1,334",252.215,252.895,There isn't
+EN2001a,A,EN2001a.sync.25,252.231,257.619,"Yeah, I I don't know about the search functionality, that might be online. Depends how it's gonna work."
+EN2001a,B,EN2001a.sync.283,252.964,253.654,Hmm.
+EN2001a,E,"EN2001a.sync.1,336",257.617,293.184,"Yeah, I know. Th Yeah, the search is I guess the search is sort of a strange beast anyway because for the search we're leaving the NITE X_M_L_ framework. Um but that's still sort of that's good. That means that at least like we don't have the type of situation where somebody has to do like a billion calculations on on data on-line. 'Cause that would make it a lot more like that would mean that our interface for the data would have to be a lot more careful about how it performs and and everything. And nobody is modifying that data at at on-line time at all it seems. Nobody's making any changes to the actual data on-line."
+EN2001a,A,EN2001a.sync.27,265.748,266.307,Yeah.
+EN2001a,D,EN2001a.sync.831,294.844,295.658,Don't think so.
+EN2001a,E,"EN2001a.sync.1,338",295.632,306.24,"So that's actually making it a lot easier. That basically means our browser really is a viewer mostly, which isn't doing much with the data except for sort of selecting a piece piece of it and and displaying it."
+EN2001a,D,EN2001a.sync.833,297.283,297.694,Yeah.
+EN2001a,D,EN2001a.sync.835,310.9,315.739,Are we still gonna go for dumping it into a database? Are we still gonna dump it into a database?
+EN2001a,E,"EN2001a.sync.1,340",313.376,313.69,Hmm?
+EN2001a,E,"EN2001a.sync.1,342",316.096,319.873,"Well some parts relevant for the search, yes. I'd say so."
+EN2001a,D,EN2001a.sync.837,316.738,318.243,
+EN2001a,D,EN2001a.sync.839,320.153,325.377,"'Cause if we are, I reckon we should all read our classes out of the database. It'll be so much easier."
+EN2001a,E,"EN2001a.sync.1,344",325.808,326.147,Hmm?
+EN2001a,D,EN2001a.sync.841,326.672,342.101,"Well if we're gonna dump the part of it into a database anyway, we might as well dump all the fields we want into the database, calculate everything from there. Then we don't even have to worry that much about the underlying X_M_L_ representation. We can just query it."
+EN2001a,E,"EN2001a.sync.1,346",343.288,347.204,"Yeah, but nobody of us is doing much of searching from the data in the on-line stage."
+EN2001a,E,"EN2001a.sync.1,348",348.8,392.893,"And for all together, like the display itself, I think we are easier if we if it's sitting on the X_M_L_ than if it's sitting on the S_Q_L_ stuff, because if it's sitting on the X_M_L_, we have the the NITE X_M_L_ framework with all its functionality for synchronizing through all the different levels whenever there's a change, whenever something's moving forward and stuff. And we can just more or less look at their code, like how their player moves forward, and how that moving forward is represented in different windows and stuff. So I think in the actual browser itself I don't wanna sit on the S_Q_L_ if we can sit on the X_M_L_ because sitting on the X_M_L_ we have all we have so much help. And for y for like the p the calculations that we're doing apart from the search, it seems that everyone needs some special representations anyway."
+EN2001a,D,EN2001a.sync.843,393.623,398.97,"Well if we're gonna do that, we should try and store everything in in an X_M_L_ format as well."
+EN2001a,E,"EN2001a.sync.1,350",400.096,408.332,"You mean our results? Yeah, in in the NITE X_M_L_ X_M_L_ format, so with their time stamps and stuff, so that it's easy to to tie together st things."
+EN2001a,D,EN2001a.sync.845,401.168,401.586,Yeah.
+EN2001a,B,EN2001a.sync.285,406.304,406.946,Yes.
+EN2001a,D,EN2001a.sync.847,408.146,408.645,Yeah.
+EN2001a,E,"EN2001a.sync.1,352",411.664,442.479,"What I'm like what we have to think about is if we go with this multi-level idea, like this idea that sort of if you start with a whole meeting series as one entity, as one thing that you display, as one whole sort of, that then the individual chunks of the individual meetings, whereas and then you can click on a meeting, and then sort of the meeting is the whole thing and the chunks are the individual segments, that means sort of we have multiple levels of of representation, which we probably"
+EN2001a,E,"EN2001a.sync.1,354",443.826,484.793,"If we if we do it this way like we f we have to discuss that if we do it this way, then we should probably find some abstraction model, so that the interface in the sense like deals with it as if it's same so that the interface doesn't really have to worry whether it's a meeting in the whole meeting series or a segment within a meeting, you know what I mean? And that's probably stuff that we have to sort of like process twice then. Like for example that like the summary of a meeting within the whole meeting corpus or meeting series y is meeting series a good word for that? I don't really know what how to call it. You know what I mean, like not not the whole corpus, but every meeting that has to do with one topic. Um so in in the meeting se series so that a summary for a meeting within the meeting series, are sort of"
+EN2001a,A,EN2001a.sync.29,460.928,461.345,Mm-hmm.
+EN2001a,B,EN2001a.sync.287,461.248,461.724,Hmm yes.
+EN2001a,B,EN2001a.sync.289,474.744,475.218,Hmm.
+EN2001a,A,EN2001a.sync.31,479.6,480.439,"Yeah, that makes sense."
+EN2001a,E,"EN2001a.sync.1,356",486.498,494.792,compiled off-line by a summary module. And that is separate from a summary of a segment within a meeting. 'Cause I don't think we can
+EN2001a,B,EN2001a.sync.291,494.304,496.64,I'm not so sure.
+EN2001a,D,EN2001a.sync.849,494.463,510.886,"Well we don't even need to do that, 'cause if we got our information density calculated off-line, so all we do is treat the whole lot as one massive document. I mean they'll it's not gonna be so big that we can't load in a information density for every utterance. And we can just summarise based on that."
+EN2001a,E,"EN2001a.sync.1,358",510.907,511.248,
+EN2001a,B,EN2001a.sync.293,511.504,528.608,"I I thought we would just have like um one big summary um with all the uh different importance levels um displayed on it. And depending on what our um zoom level is, we just display a part of it."
+EN2001a,E,"EN2001a.sync.1,360",528.864,531.578,So are we doing that at all levels? Are we um
+EN2001a,B,EN2001a.sync.295,531.76,538.756,And we would have one very big thing off-line. And from that we would just select what we are displaying.
+EN2001a,E,"EN2001a.sync.1,362",538.656,542.237,And just have different like fine-grainedness levels sort of.
+EN2001a,B,EN2001a.sync.297,542.016,554.21,Yes. So for example you would um give a high value to those um sequences you want to display in the meeting series summary. And you just cut off.
+EN2001a,E,"EN2001a.sync.1,364",548.261,548.82,Mm.
+EN2001a,E,"EN2001a.sync.1,366",551.776,565.699,"'Kay. So the only thing that yeah, so the only thing that would happen basically if I double-click let's say from the whole meeting series on a single meeting, is that the zoom level changes. Like the th the start and the end position changes and the zoom level changes."
+EN2001a,B,EN2001a.sync.299,566.048,569.101,"That was what I sh I thought, yeah. I thought."
+EN2001a,D,EN2001a.sync.851,567.799,569.337,I think you can do it on-line.
+EN2001a,E,"EN2001a.sync.1,368",568.044,574.184,I I thought we couldn't do that. Like I was under the impression that we couldn't do that because we couldn't load the data for all that.
+EN2001a,E,"EN2001a.sync.1,370",576.032,577.264,"But I don't know, I mean that"
+EN2001a,A,EN2001a.sync.33,578.272,578.764,Hmm.
+EN2001a,D,EN2001a.sync.853,578.896,594.652,"I don't think there's really much point in doing like that when it's just gonna feed off in the end the information density measure basically. And that's all calculated off-line. So what you're really doing is sorting a list, is the p computationally hard part of it."
+EN2001a,E,"EN2001a.sync.1,372",596.448,599.108,So I'm s not sure if I got it. I was
+EN2001a,D,EN2001a.sync.855,598.809,627.535,"Well like the ideas we're calculating are information density all off-line first for every utterance in the whole corpus, right? So what you do is you say if you're looking at a series of meetings, you just say well our whole document comprises of all these stuck together. And then all you have to do is sort them by j information density. Like maybe weighted with the search terms, and then extract them. I don't think it's too slow to do on-line, to be honest."
+EN2001a,E,"EN2001a.sync.1,374",605.088,606.921,Mm-hmm. Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,376",613.824,614.268,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,378",617.856,618.257,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,380",620.752,621.178,Okay.
+EN2001a,E,"EN2001a.sync.1,382",622.624,623.459,So
+EN2001a,E,"EN2001a.sync.1,384",626.62,640.359,"Okay. I wa I was just worried about the total memory complexity of it. But I I completely admit, I mean, I just sort of like th took that from some thing that Jonathan once said about not loading everything. But maybe I was just wrong about it. How many utterances w"
+EN2001a,D,EN2001a.sync.857,638.326,638.588,
+EN2001a,D,EN2001a.sync.859,639.006,639.78,Is that
+EN2001a,B,EN2001a.sync.301,639.565,657.248,"But I think the m difference might be that we want just want to have um the words. And that's not so much what he meant with not possibly loading everything was that you m um load all the uh annotation stuff, all the sound files, all"
+EN2001a,E,"EN2001a.sync.1,386",651.727,660.648,"Yeah, and I w yeah. Yeah. Yeah. Yeah. So what we have is we would have a word."
+EN2001a,D,EN2001a.sync.861,654.374,654.848,Yeah.
+EN2001a,A,EN2001a.sync.35,655.366,655.85,Hmm.
+EN2001a,E,"EN2001a.sync.1,388",662.304,686.548,Like we would have words with some priority levels. And they would basically be because even the selection would would the summaries automatically feed from just how prioritized an individual word or how indiv uh prioritized an individual utterance is? Or i are the summaries sort of refined from it and made by a machine to make sentences and stuff? Or are they just sort of taking out the words with the highest priority and then the words of the second highest priority?
+EN2001a,D,EN2001a.sync.863,685.657,692.683,"Well, on the utterance level I was thinking. So the utterances with the highest like mean information density."
+EN2001a,E,"EN2001a.sync.1,390",688.288,689.987,And the u okay.
+EN2001a,E,"EN2001a.sync.1,392",692.005,696.778,"Are we doing it on th the whole thing on the utterance level? Or are we doing it on word level, like the information density calculation?"
+EN2001a,B,EN2001a.sync.303,692.167,693.856,In
+EN2001a,D,EN2001a.sync.865,695.675,703.343,"Well the trouble with doing it on the word level is if you want the audio to synch up, you've got no way of getting in and extracting just that word. I mean it's impossible."
+EN2001a,E,"EN2001a.sync.1,394",703.872,718.305,"We I think we have start and end times for words actually, but it's yeah, but it m it might s but it might sound crazy in the player. We should really maybe we can do that together at some point today that we check out how the player works. But there's maybe some merit in altogether doing it on an utterance level in the end."
+EN2001a,D,EN2001a.sync.867,705.874,708.452,"For every single word? Oh, okay."
+EN2001a,C,EN2001a.sync.550,707.022,707.663,Yeah.
+EN2001a,D,EN2001a.sync.869,710.224,710.671,Yeah.
+EN2001a,D,EN2001a.sync.871,713.91,716.514,I don't think that will do it. We'll have to buffer it.
+EN2001a,B,EN2001a.sync.305,715.531,733.581,"Um I r I I'm getting quite lost um at the moment because um w what's um our difference between the um se um uh the importance measure and the skimming? I mean, do we do both or is it the same thing?"
+EN2001a,C,EN2001a.sync.552,719.101,719.907,
+EN2001a,E,"EN2001a.sync.1,396",720.261,720.685,So
+EN2001a,D,EN2001a.sync.873,734.064,736.297,Well the skimming's gonna use the importance.
+EN2001a,E,"EN2001a.sync.1,398",736.63,737.113,Yeah.
+EN2001a,B,EN2001a.sync.307,737.216,737.7,Okay.
+EN2001a,D,EN2001a.sync.875,738.432,740.967,But like at first it's just gonna be I_D_F_.
+EN2001a,B,EN2001a.sync.309,738.976,745.38,So but when when we talk about summaries you talk about this uh abo about skimming and not about
+EN2001a,D,EN2001a.sync.877,744.931,746.336,"Well mostly skimming, yeah."
+EN2001a,E,"EN2001a.sync.1,400",746.684,764.714,"Well but also about the displays, I mean the displays in the in the text body, in the in the latest draft that we had sort of we came up with the idea that it isn't displaying utterance for utterance, but it's also displaying uh a summarised version in you know, like below the below the graph, the part. Maybe"
+EN2001a,B,EN2001a.sync.311,762.416,762.896,Yeah.
+EN2001a,E,"EN2001a.sync.1,402",766.464,767.012,"Yeah, r"
+EN2001a,B,EN2001a.sync.313,766.711,770.345,"Yeah right, isn't that the skimming? Isn't that the skimming?"
+EN2001a,E,"EN2001a.sync.1,404",768.543,768.859,Hmm?
+EN2001a,E,"EN2001a.sync.1,406",769.911,774.515,"Oh yeah, f it's just like there there's like audio skimming and there's displayed skimming."
+EN2001a,B,EN2001a.sync.315,774.199,775.996,"Yeah, but it use the same data."
+EN2001a,E,"EN2001a.sync.1,408",777.04,792.798,"Yeah. Ma maybe there's some merit of going altogether for utterance level and not even bother to calculate I mean if you have to do it internally, then you can do it. But maybe like not even store the importance levels for individual words and just sort of rank utterances as a whole."
+EN2001a,D,EN2001a.sync.879,777.408,777.801,Yeah.
+EN2001a,D,EN2001a.sync.881,792.095,800.563,"Well the nice thing about that is it will automatically be in sentences. Well more or less. So it will make more sense, and if you get just extract words."
+EN2001a,E,"EN2001a.sync.1,410",795.61,795.959,Hmm?
+EN2001a,E,"EN2001a.sync.1,412",797.216,797.864,Yeah.
+EN2001a,E,"EN2001a.sync.1,414",799.208,811.183,"'Cause it it might be better skimming and less memory required at the same time. And I mean if you if you know how to do it for individual words, then you can just in the worst case, if you can't find anything else, just sort of make the mean of the words over the utterance. You know what I mean?"
+EN2001a,C,EN2001a.sync.554,804.074,804.832,
+EN2001a,C,EN2001a.sync.556,811.495,816.501,"I'm not quite so what it did you want to do it, i you just wanted to assign"
+EN2001a,E,"EN2001a.sync.1,416",812.723,814.727,W it's it's
+EN2001a,E,"EN2001a.sync.1,418",816.773,822.544,"Well what's the smallest chunk at the moment you're thinking of of assigning an importance measure to, is it a word or is it an utterance?"
+EN2001a,C,EN2001a.sync.558,822.88,824.39,Uh I thought about words.
+EN2001a,E,"EN2001a.sync.1,420",824.586,830.024,So we're thinking of like maybe just storing it on a per utterance level.
+EN2001a,E,"EN2001a.sync.1,422",832.176,856.055,"Because it's it's less stuff to store probably for Dave in the in the audio playing. And for in the display it's probably better if you have whole utterances than I don't know, like what it's like if you just take single words out of utterances. That probably doesn't make any sense at all, whereas if you just uh show important utterances but the utterance as a whole it makes more sense. So it doesn't actually make a difference for your algorithm, 'cause it just means that if you're working on a word level, then we just mean it over the utterance."
+EN2001a,C,EN2001a.sync.560,833.825,834.623,Mm.
+EN2001a,B,EN2001a.sync.317,840.563,841.056,
+EN2001a,B,EN2001a.sync.319,842.08,842.892,Yeah.
+EN2001a,B,EN2001a.sync.321,843.997,844.945,A
+EN2001a,D,EN2001a.sync.883,846.368,846.959,Yeah.
+EN2001a,B,EN2001a.sync.323,855.143,870.832,"And, yeah, I think we also thought about combining that measure with um the measures I get from um s uh hot-spots and so on. So that would also be on utterance level, I think. I think."
+EN2001a,C,EN2001a.sync.562,855.402,856.333,Mm okay.
+EN2001a,E,"EN2001a.sync.1,424",865.099,865.973,They are on
+EN2001a,E,"EN2001a.sync.1,426",869.328,873.273,"Oh so that's good anyway then, yeah. Because that makes it a lot easier than to t put it on utterance level."
+EN2001a,D,EN2001a.sync.885,870.204,870.93,I see it.
+EN2001a,D,EN2001a.sync.887,872.483,880.507,But it'll need to be calculated at word level though because otherwise there won't be enough occurrences of the terms to make any meaningful sense.
+EN2001a,E,"EN2001a.sync.1,428",879.424,891.241,"Oh yeah. No but I mean like how how Jasmine does it internally I don't know, but it's probably, yeah, you probably have to work on word levels for importance. But there should be ways of easily going from a word level to an utterance level. Okay."
+EN2001a,D,EN2001a.sync.889,884.058,884.557,Yeah.
+EN2001a,D,EN2001a.sync.891,889.638,892.315,"Yeah, I reckon you can just mean it over the sentence."
+EN2001a,C,EN2001a.sync.564,890.967,898.816,"Yeah, but how about those words which don't carry any meaning at all, the um and uhs and something like that."
+EN2001a,E,"EN2001a.sync.1,430",900.894,901.692,"Yeah, prob"
+EN2001a,C,EN2001a.sync.566,901.28,917.211,"Because if we if we average average over over a whole utterance all the words, and there are quite unimportant words in there, but quite important words as well, I think we should just disregard the the"
+EN2001a,D,EN2001a.sync.893,901.858,903.479,I think we should filter them.
+EN2001a,E,"EN2001a.sync.1,432",906.56,906.982,Hmm.
+EN2001a,D,EN2001a.sync.895,917.097,930.65,Maybe we should have like um a cut-off. So it a w word only gets a value if it's above a certain threshold. So anything that has less than say nought point five importance gets assigned to zero.
+EN2001a,C,EN2001a.sync.568,925.287,926.093,Okay.
+EN2001a,C,EN2001a.sync.570,930.971,931.378,Alright.
+EN2001a,E,"EN2001a.sync.1,434",931.248,944.543,"Well we do a pre-filtering of sort of the whole thing, sort of like but that, like the problem with that is it's easy to do in the text level. But that would mean it would still play the uh in your audio, unless we sort of also store what pieces we cut out for the audio."
+EN2001a,D,EN2001a.sync.897,933.312,934.472,"Yeah, that's the other th"
+EN2001a,C,EN2001a.sync.572,933.509,934.34,
+EN2001a,D,EN2001a.sync.899,939.378,939.91,Yeah.
+EN2001a,E,"EN2001a.sync.1,436",948.725,958.115,"Yeah. I think before we can like answer that specific question how we c deal with that, it's probably good for us to look at what the audio player is capable of doing."
+EN2001a,D,EN2001a.sync.901,958.192,963.527,I think we'll have to buffer the audio. But I don't think it will be very hard. I think it would be like an hour or two's work.
+EN2001a,E,"EN2001a.sync.1,438",960.304,960.868,Yes.
+EN2001a,E,"EN2001a.sync.1,440",964.448,967.376,So what do you mean by buffering? Like you think directly feeding
+EN2001a,D,EN2001a.sync.903,966.253,970.556,Like just build an another f wave file essentially.
+EN2001a,A,EN2001a.sync.37,970.576,972.493,"Yeah, you just concatenate them together."
+EN2001a,E,"EN2001a.sync.1,442",971.168,976.881,"But yeah, but not but not stored on the hard disk and then loaded in, but loaded in directly from memory."
+EN2001a,D,EN2001a.sync.905,971.743,974.284,"Yeah, I mean I bet there would be packages"
+EN2001a,C,EN2001a.sync.574,973.567,974.517,
+EN2001a,D,EN2001a.sync.907,976.289,984.04,"In memory, yeah. So just like unp there's bound to be like a media wave object or something like that. And just build one in memory."
+EN2001a,E,"EN2001a.sync.1,444",982.579,989.969,"But it's probably a stream if it exists in Java, it would be probably some binary stream going in of some type. Okay, yeah."
+EN2001a,D,EN2001a.sync.909,987.265,997.501,"I don't know. I have no idea. But it must have like classes for dealing with files. And if it has classes for concatenating files, you can do it in memory. So"
+EN2001a,E,"EN2001a.sync.1,446",995.717,1016.557,"Okay. Okay, so I mean so that means that there's probably, even if you go on an per utterance level, there's still some merit on within utterances cutting out stuff which clearly isn't relevant at all, and that maybe also for the audio we'd have to do. So let's say we play the whole au phrase, but then in addition to that, we have some information that says minus that part of something. That's okay, that we can do."
+EN2001a,D,EN2001a.sync.911,1016.576,1032.699,"Well what I think I might try and build is basically a class that you just feed it a linked list of um different wave-forms, and it will just string them all together with maybe, I don't know, tenth of a second silence in between each one or something like that."
+EN2001a,E,"EN2001a.sync.1,448",1032.073,1071.811,"Yeah, maybe even I mean that's sort of that depends on how how advanced we get. If maybe if we realise that there's massive differences in in gain or in something, you can probably just make some simple simple normalization, but that really depends on how much time we have and and how much is necessary. Yeah, if like I d I don't know anything about audio and I have never seen the player. So if you find that the player accepts some n input from memory, and if it's easy to do, then I guess that's that's fairly doable. So but that means in the general structure we're actually quite lucky, so we we have we load into memory for the whole series of meetings just the utterances and rankings for the utterances and some information probably that says, well, the I guess that goes with the utterance, who's speaking."
+EN2001a,D,EN2001a.sync.913,1041.048,1042.337,"Normalise it, yeah."
+EN2001a,D,EN2001a.sync.915,1072.758,1074.238,"Oh yeah, yeah, we'll need that."
+EN2001a,B,EN2001a.sync.325,1073.296,1074.096,"Yes, sure."
+EN2001a,E,"EN2001a.sync.1,450",1073.513,1075.888,Because then we can also do the display about who's speaking.
+EN2001a,D,EN2001a.sync.917,1076.168,1079.185,We also really wanna be able to search by who's speaking as well.
+EN2001a,E,"EN2001a.sync.1,452",1080.176,1080.773,Yeah.
+EN2001a,E,"EN2001a.sync.1,454",1083.392,1093.311,"But I'm I'm still confused 'cause I thought like that's just what Jonathan said we do c that we can't do, like load a massive document of that size. On the other hand"
+EN2001a,D,EN2001a.sync.919,1092.367,1095.436,"It doesn't matter, 'cause all the calculation's done off-line."
+EN2001a,E,"EN2001a.sync.1,456",1100.122,1107.706,"The other hand, I mean it shouldn't be like should be like fifty mega-byte in RAM or something, it shouldn't be massive, should it? Actually fifty hundred megabyte is quite big in RAM."
+EN2001a,A,EN2001a.sync.39,1105.927,1106.397,Hmm.
+EN2001a,E,"EN2001a.sync.1,458",1115.968,1118.441,"Just thinking, what's the simp so"
+EN2001a,E,"EN2001a.sync.1,460",1120.096,1134.94,"We do get an error message with the project if we load everything into the project with all the data they load. So we know that doesn't work. So our hope is essentially that we load less into it. What's this lazy loading thing, somebody explain lazy loading to me."
+EN2001a,B,EN2001a.sync.327,1131.056,1131.52,Yes.
+EN2001a,A,EN2001a.sync.41,1131.44,1131.818,Yeah.
+EN2001a,A,EN2001a.sync.43,1134.406,1142.255,It just means it loads on demand. It only loads when it needs a particular type of file. Like when it's being accessed.
+EN2001a,E,"EN2001a.sync.1,462",1141.976,1160.252,"Ah, okay. So that is that only by type of file. Like if if if the same thing is in different files, would it then maybe like, you know, if if utterances are split over three or ten or w hundred different files, is then a chance maybe that it doesn't try to load them all into memory at the same time, but just"
+EN2001a,A,EN2001a.sync.45,1160.736,1164.42,"Yeah, I think that's the idea, it just loads the particular ones it needs."
+EN2001a,E,"EN2001a.sync.1,464",1163.354,1167.369,"So why does it fail then in the first place? Then it shouldn't ever fail, because then it should never"
+EN2001a,A,EN2001a.sync.47,1167.464,1170.307,But if you were doing a search over the whole corpus you'd have to load them all.
+EN2001a,E,"EN2001a.sync.1,466",1169.395,1177.178,"Yeah, but yeah, but um it uh it it failed right when you load it, right, the NITE X_M_L_ kit, so that's interesting."
+EN2001a,B,EN2001a.sync.329,1175.36,1176.433,"Yes, right."
+EN2001a,A,EN2001a.sync.49,1179.168,1179.635,Hmm.
+EN2001a,B,EN2001a.sync.331,1180.768,1201.792,"Oops, it does. So I define baseline and what it loads? For example it loads all the utterances and so on, but it doesn't load um the discourse acts and for example not the and what's what else there? Not the summaries. It only loads those on demand."
+EN2001a,E,"EN2001a.sync.1,468",1192.448,1193.001,Hmm.
+EN2001a,E,"EN2001a.sync.1,470",1203.936,1219.954,"Let's check that out. Um I'll p I'll probably ask Jonathan about it. So alternatively, if we realise we can't do the whole thing in one go, we can probably just process some sort of meta-data, you know what I mean, like sort of sort of for the whole series"
+EN2001a,E,"EN2001a.sync.1,472",1221.509,1225.824,chunks representing the individual meetings or some
+EN2001a,E,"EN2001a.sync.1,474",1227.593,1251.568,"Like something that represents the whole series in in a v in a structure very similar to the structure in which we represent individual um meetings, but with data sort of always combined from the whole series. so instead of having an single utterance that we display, it would probably be like that would be representing a whole um topic, a segment in a meeting."
+EN2001a,E,"EN2001a.sync.1,476",1253.28,1255.436,And sort of so that wi using the same data st
+EN2001a,B,EN2001a.sync.333,1254.72,1273.136,Y you mean that you um basically split up th the big thing into um different summaries. For example that you have a very um top-level um summary and a separate file for for each level.
+EN2001a,E,"EN2001a.sync.1,478",1262.368,1263.459,"Well, in a sense"
+EN2001a,E,"EN2001a.sync.1,480",1272.118,1278.072,"Uh I'm I'm thinking of in a sense of like creating a virtual a virtual meeting out of the whole meeting series, sort of."
+EN2001a,D,EN2001a.sync.921,1278.288,1282.546,That's easy. You just like create a new X_M_L_ document in memory.
+EN2001a,E,"EN2001a.sync.1,482",1281.696,1322.272,"Yeah, sort of like off-line create a virtual meeting, which which basically treats the meeting series as if it was a meeting, and treats the individual meetings within the series as if they were segments, and treats the individual segments within meetings as if they were um utterances. You know, so we just sort of we shift it one level up. And in that way we could probably use the same algorithm and just like make vir like one or two ifs that say okay, if you are on a whole document uh a whole series level and that was a double-click, then don't just go into that um segment, but load a new file or something like it, but in general use the same algorithm. That would be an alternative if we can't actually load the whole thing and"
+EN2001a,B,EN2001a.sync.335,1302.528,1302.97,Mm-hmm.
+EN2001a,A,EN2001a.sync.51,1322.72,1323.029,Mm.
+EN2001a,E,"EN2001a.sync.1,484",1324.56,1336.272,"'Cause also like even if we maybe this whole like maybe I'm worrying too much about the whole series in one thing display, because actually I mean probably users wouldn't view that one too often."
+EN2001a,D,EN2001a.sync.923,1336.106,1363.136,"I don't think it's really that much of a problem because if it's too big, what we can do is just well all the off-line stuff doesn't really matter. And all we can do is just process a bit at a time. Like for summarisation, say we wanted a hundred utterances in the summary, just look at the meeting, take the top one hundred utterances in each other meeting. If it scores higher than the ones already in the summary so far, just replace them. And then you only have to process one meeting at a time."
+EN2001a,E,"EN2001a.sync.1,486",1363.776,1384.179,"Yeah, but I'm I'm still worried. Like for example for the display, if you actually if you want a display uh like for the whole series, the information density levels based on and and the f and the only granularity you have is individual utterances, that means you have to through every single utterance in a series of seventy hours of meetings."
+EN2001a,D,EN2001a.sync.925,1383.381,1390.756,"Okay, so maybe we should build a b store a mean measure for the segments and meetings as well?"
+EN2001a,E,"EN2001a.sync.1,488",1389.328,1402.121,"Yeah. Yeah, and if you make that structurally very similar to the the le like one level down, like the way how we uh store individual utterances and stuff, then maybe we can more or less use the same code and just make a few ifs and stuff."
+EN2001a,E,"EN2001a.sync.1,490",1405.424,1410.0,"Yeah, so so but still so in in general we're having we're having utterances"
+EN2001a,E,"EN2001a.sync.1,492",1411.653,1413.17,and they have a score.
+EN2001a,E,"EN2001a.sync.1,494",1415.392,1426.899,"And that's as much as we really need. And of cou and they also have a time a time information of course. Hmm? And a and a s and a speaker information, yeah."
+EN2001a,D,EN2001a.sync.927,1422.805,1430.752,And speaker. Speaker and um topic segmenting we'll need as well.
+EN2001a,E,"EN2001a.sync.1,496",1430.768,1436.497,"Yeah, so an information which topic they're in, yeah. And and probably separate to that an information about the different topics like that"
+EN2001a,D,EN2001a.sync.929,1432.82,1433.26,Yeah.
+EN2001a,E,"EN2001a.sync.1,498",1438.32,1438.726,Yeah.
+EN2001a,E,"EN2001a.sync.1,500",1440.16,1441.131,So
+EN2001a,E,"EN2001a.sync.1,502",1442.368,1449.099,so the skimming can work on that because the skimming just sort of sorts the utterances and puts as many in as it needs
+EN2001a,D,EN2001a.sync.931,1448.363,1453.368,"Well yeah, and then it'll f preserve the order when it's displayed the"
+EN2001a,E,"EN2001a.sync.1,504",1454.208,1462.064,"Yeah. Yeah, it'll it'll play them in some order in which they were set because otherwise it's gonna be more entertaining. Um"
+EN2001a,D,EN2001a.sync.933,1454.723,1455.031,Yeah.
+EN2001a,D,EN2001a.sync.935,1456.977,1457.817,Yeah.
+EN2001a,E,"EN2001a.sync.1,506",1463.456,1491.424,"but that that's enough data for the skimming and the the searching, so what the searching does is the searching leaves the whole framework, goes to the S_Q_L_ database and gets like basically in the end gets just a time marker for where that is, like that utterance that we are concerned with. And then we have to find I'm sure there's some way in in NITE X_M_L_ to just say set position to that time mark. And then it shifts the whole frame and it alerts every single element of the display and the display updates."
+EN2001a,D,EN2001a.sync.937,1466.224,1467.222,"Yeah, I think so."
+EN2001a,A,EN2001a.sync.53,1490.178,1490.553,Hmm.
+EN2001a,A,EN2001a.sync.55,1491.599,1495.244,"Yeah, we do not want it in to develop a little tree display as well for multiple results."
+EN2001a,E,"EN2001a.sync.1,508",1495.81,1502.66,"Yeah, yeah. That we can ju yeah, but so so if if somethi so yeah. So if in that tree display somebody clicks on something"
+EN2001a,A,EN2001a.sync.57,1497.024,1498.813,"Yeah, but that'd be quite easy to do."
+EN2001a,A,EN2001a.sync.59,1503.504,1504.944,You just need to find the time stamp.
+EN2001a,E,"EN2001a.sync.1,510",1505.168,1537.95,"Yeah, and then you sort of feed the time stamp to and the NITE X_M_L_ central manager, and that central manager alerts everything that's there, like alerts the skim like the the audio display, alerts the text display, alerts the visual display and says we have a new time frame and then they all sort of do their update routines with respect to the current level of zoom. So how much do they display, and starting position at where the or maybe the mid-position of it, I don't know, like w if start where the thing was found or if that thing wa was found it's in the middle of the part that we display, that I don't know. But that we can decide about, but a general sort of"
+EN2001a,A,EN2001a.sync.61,1510.209,1510.716,Yeah.
+EN2001a,E,"EN2001a.sync.1,512",1540.08,1556.646,"It's the same thing if like whether you play and it moves forward or whether you jump to a position through search, it's essentially for all the window handling, it's the same event. It's only that the event gets triggered by the search routine which sort of push that into NITE X_M_L_ and says please go there now."
+EN2001a,A,EN2001a.sync.63,1549.104,1549.546,Yeah.
+EN2001a,D,EN2001a.sync.939,1557.536,1561.932,So we should basically make our own X_M_L_ document in memory
+EN2001a,C,EN2001a.sync.576,1558.189,1558.679,
+EN2001a,D,EN2001a.sync.941,1563.888,1565.888,that everyone's um
+EN2001a,D,EN2001a.sync.943,1567.218,1576.539,"module changes that, rather than the underlying data. And then have that X_M_L_ uh NITE X_M_L_ document tied to the interface."
+EN2001a,E,"EN2001a.sync.1,514",1576.99,1580.233,Why do we have to do it in memory? But that stuff's so
+EN2001a,D,EN2001a.sync.945,1579.796,1581.808,"Well, you can make it in a file if you want."
+EN2001a,E,"EN2001a.sync.1,516",1582.672,1585.122,I mean like the information is coming from off-line.
+EN2001a,E,"EN2001a.sync.1,518",1588.291,1619.529,"So we probably we don't even have to change the utterance document, right, because the whole way, like the whole beauty of the NITE X_M_L_ is that it ties together lots of different files. So we can just create an additional X_M_L_ file which for every utterance like the utterances have I_D_s I presume, some references. So we just we tie uh p just a very short X_M_L_ file, which it's the only information it has that has whatever a number for for the um weight, for the information density, and we just tie that to the existing utterances and tie them to the existing speaker changes."
+EN2001a,D,EN2001a.sync.947,1603.376,1603.776,Mm-hmm.
+EN2001a,C,EN2001a.sync.578,1603.921,1605.817,Yeah.
+EN2001a,B,EN2001a.sync.337,1604.161,1604.832,Yes.
+EN2001a,C,EN2001a.sync.580,1620.272,1630.96,But there is no I_D_ for an utterance I think. It's just for individual words. So how do we do that then? We for utterances as well.
+EN2001a,B,EN2001a.sync.339,1627.44,1629.344,"N Uh no no, it's f for"
+EN2001a,B,EN2001a.sync.341,1632.544,1634.944,"No, you're right. Yeah. It's for"
+EN2001a,C,EN2001a.sync.582,1633.824,1636.288,I think it's just for one
+EN2001a,C,EN2001a.sync.584,1638.736,1640.397,word. So we have to
+EN2001a,A,EN2001a.sync.65,1638.807,1643.008,"Yeah, I think I think those segments for each utterance are split up."
+EN2001a,C,EN2001a.sync.586,1643.248,1643.695,Yeah.
+EN2001a,A,EN2001a.sync.67,1644.144,1644.744,Think so.
+EN2001a,E,"EN2001a.sync.1,520",1646.711,1665.356,Well otherwise we probably have to go over it and like add some integer that we just increment from top to bottom sort of to every utterance as an as an I_D_ some type. Or un or try to understand how NITE X_M_L_ I_D_s work and maybe there's some special route we have to follow when we use these I_D_s. It's alm hmm?
+EN2001a,A,EN2001a.sync.69,1663.44,1668.992,"Yeah, I'm pretty sure it's already there. Pretty sure that's already there. The the utterances are numbered."
+EN2001a,E,"EN2001a.sync.1,522",1670.462,1673.536,"Yeah, the the girl said the utterances themselves are not numbered at the moment."
+EN2001a,B,EN2001a.sync.343,1674.48,1675.155,Um
+EN2001a,C,EN2001a.sync.588,1674.675,1680.464,"Uh I'm not quite sure, I have only seen that the uh the individual words have got an I_D_."
+EN2001a,E,"EN2001a.sync.1,524",1675.807,1682.935,Okay. Okay. Okay. Yeah. So I guess that would be solvable if not.
+EN2001a,C,EN2001a.sync.590,1683.296,1692.445,Yeah. You always could have a look at the time stamps and then take the ones that uh belong together to form an utterance.
+EN2001a,E,"EN2001a.sync.1,526",1687.008,1687.44,Mm-hmm.
+EN2001a,B,EN2001a.sync.345,1693.776,1704.603,"No, I I think we would just take the segments that are already that were Yeah, there's um this segments file. Um you know, the X_M_L_ segments."
+EN2001a,E,"EN2001a.sync.1,528",1693.806,1694.213,Sorry?
+EN2001a,C,EN2001a.sync.592,1698.192,1701.951,"Yeah, if they are already, there's it's easy but it would be possible."
+EN2001a,E,"EN2001a.sync.1,530",1700.536,1701.201,Okay.
+EN2001a,E,"EN2001a.sync.1,532",1702.69,1703.43,Okay.
+EN2001a,C,EN2001a.sync.594,1703.323,1705.262,Uh yeah. Okay.
+EN2001a,A,EN2001a.sync.71,1704.768,1705.159,Hmm.
+EN2001a,E,"EN2001a.sync.1,534",1706.704,1708.369,Is that a board marker pen actually?
+EN2001a,B,EN2001a.sync.347,1707.44,1707.774,Oh.
+EN2001a,C,EN2001a.sync.596,1708.224,1708.881,
+EN2001a,B,EN2001a.sync.349,1711.216,1712.224,That I don't know.
+EN2001a,E,"EN2001a.sync.1,536",1711.271,1717.691,"Oh. That's just so like to make a list of all this stuff, or we probably can somebody can do it on paper."
+EN2001a,A,EN2001a.sync.73,1711.529,1712.277,"Yeah, I think so."
+EN2001a,E,"EN2001a.sync.1,538",1719.392,1744.572,"All these fancy pens. So what so the stuff we have we have utterances and speakers and weights for utterances. So for for every utterance sort of like the utterance has a speaker and a weight which is coming from outside. Or we just tie it to it. And there is segments, which hmm?"
+EN2001a,C,EN2001a.sync.598,1731.387,1732.169,
+EN2001a,D,EN2001a.sync.949,1742.656,1747.835,"They are utterances, aren't they? The segments are utterances, aren't they? Yeah."
+EN2001a,A,EN2001a.sync.75,1745.59,1747.702,"Ye that's the impression I get, yeah."
+EN2001a,E,"EN2001a.sync.1,540",1747.327,1755.328,"Oh, so sorry um. Uh topic s topic segments I meant. Like they are they are a super-unit. So so the utterances are tied to topic segments."
+EN2001a,B,EN2001a.sync.351,1748.104,1749.296,"Yeah, that's um"
+EN2001a,D,EN2001a.sync.951,1750.429,1751.394,"Alright, okay."
+EN2001a,B,EN2001a.sync.353,1751.264,1751.73,Mm-hmm.
+EN2001a,A,EN2001a.sync.77,1752.192,1752.568,Oh.
+EN2001a,E,"EN2001a.sync.1,542",1761.674,1768.967,"And if the time stamps are on a word level, then we b somehow have to extract time stamps for utterances where they start."
+EN2001a,B,EN2001a.sync.355,1768.112,1781.312,"There there are time stamps um for, well, segments um and for th um segments is for example when when you look at the data, what is displayed in one line."
+EN2001a,D,EN2001a.sync.953,1768.83,1770.002,"Well, that's easy."
+EN2001a,E,"EN2001a.sync.1,544",1774.352,1775.851,W what segments now?
+EN2001a,E,"EN2001a.sync.1,546",1781.951,1788.985,Okay. Is the uh is that the same as utterances that is that the same as utterances that
+EN2001a,A,EN2001a.sync.79,1783.616,1783.984,Hmm.
+EN2001a,B,EN2001a.sync.357,1783.776,1787.04,What when when you look at it in the hmm?
+EN2001a,A,EN2001a.sync.81,1786.076,1786.374,Ye
+EN2001a,A,EN2001a.sync.83,1787.135,1787.509,Mm.
+EN2001a,D,EN2001a.sync.955,1789.488,1795.317,"Well it's close enough, isn't it? It may not be exact every time, but it's a so sort of size we're looking for."
+EN2001a,B,EN2001a.sync.359,1789.614,1791.377,I think so. Isn't
+EN2001a,A,EN2001a.sync.85,1790.935,1791.75,"Yeah, uh"
+EN2001a,B,EN2001a.sync.361,1792.571,1816.426,Um for ex um I I compared it with what I did for the pause um duration extraction. Um and basically it's uh words that are uttered in a sequence without pauses. But sometimes um however there are um short pauses in it and they're indicated by square brackets pause or something in the data.
+EN2001a,E,"EN2001a.sync.1,548",1798.146,1800.075,Mm-hmm. Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,550",1812.45,1819.626,What so that's Oh. But that's one o one segment or is that two segments then?
+EN2001a,A,EN2001a.sync.87,1814.109,1814.499,Right.
+EN2001a,B,EN2001a.sync.363,1820.497,1826.704,Um someti uh but uh the annotators decided what was one segment and what wasn't.
+EN2001a,E,"EN2001a.sync.1,552",1823.619,1824.104,Yeah.
+EN2001a,E,"EN2001a.sync.1,554",1826.976,1840.108,"Okay. Okay. So but but generally utterances is that which we just called uh sorry, segments is that which we just called utterances now. Like it's it's the sa it's sort of like one person's contribution at a time sort of thingy dingy."
+EN2001a,B,EN2001a.sync.365,1835.936,1837.318,I think so.
+EN2001a,D,EN2001a.sync.957,1836.237,1837.134,"Yeah, yeah."
+EN2001a,A,EN2001a.sync.89,1840.688,1841.189,Okay.
+EN2001a,E,"EN2001a.sync.1,556",1841.856,1847.152,"Okay, so yeah, so we have those, and and then we have some f field somewhere else which has"
+EN2001a,E,"EN2001a.sync.1,558",1848.672,1849.824,topics.
+EN2001a,A,EN2001a.sync.91,1850.334,1851.182,"Topics, yeah."
+EN2001a,E,"EN2001a.sync.1,560",1851.168,1870.521,"Yeah, and and a topic's basically they are just on the I_D_, probably with a start time or something, and and the utterances referenced to those topics I guess. So the topics don't contain any redundant thing of like showing the whole topic again, but they just sort of say a number and where they start and where they finish. And the utterances then say which topic they belong to."
+EN2001a,A,EN2001a.sync.93,1858.944,1859.954,"Yeah, I think that's the right one."
+EN2001a,B,EN2001a.sync.367,1870.576,1883.954,"Yeah, but um I think for some annotations um an uttera ca utterance can have several um types. For example for the dialogue acts and so on."
+EN2001a,A,EN2001a.sync.95,1870.761,1871.152,Hmm.
+EN2001a,E,"EN2001a.sync.1,562",1884.304,1892.094,"Yeah. No. But I was thinking of the topic segmentation now and and f for that there would only be one, right, because it's sort of like it's just a time window."
+EN2001a,B,EN2001a.sync.369,1886.525,1888.612,"Okay. Yeah, that should be for"
+EN2001a,A,EN2001a.sync.97,1887.937,1888.347,Hmm.
+EN2001a,B,EN2001a.sync.371,1891.136,1893.2,"Yeah. Should be, yeah."
+EN2001a,A,EN2001a.sync.99,1892.233,1892.755,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,564",1893.856,1894.314,Yeah.
+EN2001a,E,"EN2001a.sync.1,566",1896.0,1914.576,"So if this lazy loading works, then this should definitely fit into I mean not memory then because it wouldn't all be in memory at the same time. So if we just have those sort of that information like a long list of all the utterances slash segments and like short or smaller lists which give weight to them."
+EN2001a,A,EN2001a.sync.101,1910.233,1910.606,
+EN2001a,E,"EN2001a.sync.1,568",1916.128,1931.357,"And even though probably if there's a lot of over-head in having two different files, we can probably merge the weights into it off-line. You know what I mean, like if if there's a lot of bureaucracy involved with having two different trees and whether one ties to the other because the one has the weight for the other, then it's probably quicker to just"
+EN2001a,D,EN2001a.sync.959,1923.34,1923.814,Yeah.
+EN2001a,D,EN2001a.sync.961,1931.562,1940.518,But why don't we just write it as a new X_M_L_ file? Can NITE handle just loading arbitrary uh new like attributes and stuff?
+EN2001a,D,EN2001a.sync.963,1941.728,1943.6,"I mean, I would have thought they'd make it able to."
+EN2001a,E,"EN2001a.sync.1,570",1943.888,1949.554,"Yeah, I thought that was the whole beauty that like you can just make a new X_M_L_ file and sort of tie that to the other and and it tre"
+EN2001a,D,EN2001a.sync.965,1944.874,1945.364,Yeah.
+EN2001a,D,EN2001a.sync.967,1949.078,1952.462,So why do we need to have two X_M_L_ trees in memory at once?
+EN2001a,E,"EN2001a.sync.1,572",1952.08,1964.736,"Oh yeah. So no, I didn't I didn't mean tree. No. No. I meant just like handling two different files internally. Sort of c I was just thinking you know like if if the overhead for having the same amount of data coming from two d files instead of from one file is massive"
+EN2001a,E,"EN2001a.sync.1,574",1966.192,1980.621,"then it would probably be for us easy to just like off-line put the the weight into into the file that has the segments, uh yeah, segments slash utterances already. But that we can figure out I mean if it's going horrendously wrong."
+EN2001a,D,EN2001a.sync.969,1980.4,1990.168,"The other thing is that would mean we'd be using their parser as well, which means we wouldn't have to parse anything, which be quite nice. 'Cause their parser is probably much faster than anything we've come up with anyway."
+EN2001a,E,"EN2001a.sync.1,576",1986.724,1987.14,Yeah.
+EN2001a,E,"EN2001a.sync.1,578",1990.272,2028.069,"Yeah. Yeah, no, we'd we'd be completely using like the whole infrastructure and basically just I mean the main difference really between our project and theirs really is that we load a different part of the data. But otherwise we're doing it the same way that they are doing it. So we just we're sort of running different types of queries on it. We in a sense we I think we are running queries, it's not just about um what we load and what we don't load, but we're l running queries in the sense that we dynamically select by by weights, don't we? That we have to check how fast that is, like to say give us all the ones that whether that works with their query language, whether that's too many results and whether we shou"
+EN2001a,A,EN2001a.sync.103,2026.432,2026.917,Mm.
+EN2001a,E,"EN2001a.sync.1,580",2030.016,2050.126,"You know, if 'cause if it i let's say I mean if if their query language is strange and if it would return b ten million results and it can't handle it, then we can just write our individual components in the way that they know which what the threshold is. So they still get all the data and just they internally say oh no, this is less than three and I'm not gonna display it or something."
+EN2001a,D,EN2001a.sync.971,2033.522,2033.783,
+EN2001a,D,EN2001a.sync.973,2051.04,2059.016,"Yeah, I mean we can process it in chunks if it gets too big basically. We can just process it all in chunks if it gets too big to load it into memory."
+EN2001a,E,"EN2001a.sync.1,582",2054.109,2054.483,Hmm?
+EN2001a,E,"EN2001a.sync.1,584",2057.126,2083.395,"Yeah. No. I'm just thinking for this whole thing of like a different level, sort of cutting out different different pieces, whether we do that through a query where we say give us everything that's ab above this and this weight, or whether we skip the same infrastructure, but every individual module like the player and the display say like they still get sort of all the different utterances, uh all the different pieces, but they say oh, this piece I leave out, because it's below the current threshold level."
+EN2001a,A,EN2001a.sync.105,2059.889,2060.262,Hmm.
+EN2001a,D,EN2001a.sync.975,2082.898,2101.534,I think we probably want to store Sorry. I think we probably want to store um a hierarchical information density as well. So like an informan mation density score for each meeting and each topic segment. 'Cause otherwise we'd be recalculating the same thing over and over and over again.
+EN2001a,A,EN2001a.sync.107,2101.632,2103.616,"Yeah, that'd be much more efficient to do that. Yeah."
+EN2001a,D,EN2001a.sync.977,2102.816,2103.317,Yeah.
+EN2001a,D,EN2001a.sync.979,2104.935,2108.612,And that will obviously make it much easier to display.
+EN2001a,C,EN2001a.sync.600,2106.052,2106.825,
+EN2001a,E,"EN2001a.sync.1,586",2108.6,2110.505,When do we need the one for the meet
+EN2001a,D,EN2001a.sync.981,2111.424,2113.607,"Well it may not for the whole meeting, but like"
+EN2001a,E,"EN2001a.sync.1,588",2113.168,2144.633,"Okay. Yeah, I guess for the so when we have the display, will we display the whole series. Then if we have for the individual topic segments within the meetings if we have ready calculated disp um measures, then we don't have to sort of extract that data from the individual utterances. Yeah, and that's also fairly easy to store along with our segments, isn't it. For the segments, are we extracting some type of title for them that we craft with some fancy algorithm or manually or we're just taking the single most highly valued key-word utterance for the segment heading?"
+EN2001a,D,EN2001a.sync.983,2125.884,2127.281,"Yeah, exactly."
+EN2001a,D,EN2001a.sync.985,2130.311,2130.785,Yeah.
+EN2001a,D,EN2001a.sync.987,2144.512,2145.802,"Well, we can start off"
+EN2001a,D,EN2001a.sync.989,2147.664,2153.502,like that. Well I was gonna start off I've v got sort of half-way through implementing one that does just I_D_F_.
+EN2001a,E,"EN2001a.sync.1,590",2153.68,2154.105,Hmm.
+EN2001a,D,EN2001a.sync.991,2155.072,2158.698,And then just I can change that to work on whatever.
+EN2001a,E,"EN2001a.sync.1,592",2158.032,2171.987,Hmm. It's probably like in in the end probably it wouldn't be the best thing if it's just the high most highly ranked phrase or key-word because like for example for an introduction that would most definitely not be anything that has any title anywhere similar to introduction or something.
+EN2001a,D,EN2001a.sync.993,2169.523,2170.046,Yeah.
+EN2001a,A,EN2001a.sync.109,2169.538,2170.06,Hmm.
+EN2001a,D,EN2001a.sync.995,2171.364,2177.65,And it should be weighted by stuff like the hot spots and um the key-words in the search and stuff like that.
+EN2001a,E,"EN2001a.sync.1,594",2176.512,2177.192,Yeah.
+EN2001a,E,"EN2001a.sync.1,596",2179.024,2207.978,"Also like for this part, maybe if we go over it with named entity in the end, if I mean w if one of the people doing DIL has some named entity code to spare, and just like at least for the for sort of for finding topics, titles for for segments, just take a named entity which has a really high, what's it called, D_F_I_D_F_, whatever. 'Cause you'd probably be quite likely if they're talking about a conference or a person, that that would be a named entity which is very highly fr um frequented in that part."
+EN2001a,A,EN2001a.sync.111,2187.902,2188.424,Hmm.
+EN2001a,D,EN2001a.sync.997,2207.558,2211.674,Did he not say something about named entities? So I thought he said there wasn't very many.
+EN2001a,E,"EN2001a.sync.1,598",2211.605,2236.182,"Yeah, he said they're quite sparse. So that basically was don't bother basing too much of your general calculation on it. But like especially if they're sparse, probably individual named entities which describe what a what a segment is about would probably be quite good. Like if there's some name of some conference, they would could probably say that name of the conference quite often, even though he's right that they make indirect references to it. Anyway Sorry?"
+EN2001a,D,EN2001a.sync.999,2212.958,2213.481,Yeah.
+EN2001a,C,EN2001a.sync.602,2234.594,2243.105,You s uh you said you are currently in uh implementing the idea. What exactly are you computing?
+EN2001a,D,"EN2001a.sync.1,001",2240.464,2251.188,"Yeah. It's not T_F_I_D_F_, it's just inverse document frequency. 'Cause it's really easy to do basically. There's just like for a baseline really."
+EN2001a,C,EN2001a.sync.604,2244.594,2245.317,Okay.
+EN2001a,C,EN2001a.sync.606,2248.336,2248.799,Okay.
+EN2001a,C,EN2001a.sync.608,2251.252,2251.76,Mm-hmm.
+EN2001a,A,EN2001a.sync.113,2252.576,2254.001,"Yeah, you're able to do that in Java, yeah?"
+EN2001a,D,"EN2001a.sync.1,003",2254.4,2257.776,"Well, I'm half-way through. It's not working yet, but it will do."
+EN2001a,A,EN2001a.sync.115,2255.646,2256.053,Yeah.
+EN2001a,A,EN2001a.sync.117,2256.716,2257.051,
+EN2001a,E,"EN2001a.sync.1,600",2259.584,2261.86,So you're doing that on a on a per word level.
+EN2001a,D,"EN2001a.sync.1,005",2262.48,2266.487,Um yeah. And then averaging it over the utterances.
+EN2001a,E,"EN2001a.sync.1,602",2263.824,2264.355,Okay.
+EN2001a,E,"EN2001a.sync.1,604",2266.317,2267.016,Okay.
+EN2001a,D,"EN2001a.sync.1,007",2267.728,2274.457,But it's not like um related to the corpus at all. It's just working on an arbitrary text file at the moment.
+EN2001a,E,"EN2001a.sync.1,606",2274.4,2277.488,"Okay, cool. I was just wondering where you had the corpus from at the moment."
+EN2001a,D,"EN2001a.sync.1,009",2277.552,2278.049,No.
+EN2001a,A,EN2001a.sync.119,2278.033,2278.294,Huh.
+EN2001a,E,"EN2001a.sync.1,608",2282.32,2305.472,"So it it seems that the data structure isn't a big problem and that basically we don't have to have all these massive discussions of how we exactly interact with the data structure because most of our work isn't done with that data structure in memory in the browser, but it's just done off-line and everyone can ha represent it anyway they want as long as they sort of store it in a useful X_M_L_ representation in the end. So like"
+EN2001a,D,"EN2001a.sync.1,011",2305.059,2309.799,It would be useful to know how everyone's gonna store their things though.
+EN2001a,A,EN2001a.sync.121,2311.152,2311.719,Hmm.
+EN2001a,E,"EN2001a.sync.1,610",2312.39,2326.45,"Yeah, that would mean understanding the NITE X_M_L_ X_M_L_ sort of format in a lot more detail. We should I think we should just have a long session in the computer room together and like now that we know a bit more what we want, take a closer look at NITE X_M_L_."
+EN2001a,D,"EN2001a.sync.1,013",2315.359,2315.966,Yeah.
+EN2001a,D,"EN2001a.sync.1,015",2324.64,2329.394,Yeah. Well I've got like a few hours free. Like after this.
+EN2001a,A,EN2001a.sync.123,2328.272,2344.288,"Yeah, I've had a b I've had a look at the the topic segments, how it's stored. And then yeah, th those are few per meeting, and it um well, it gives a time stamp and inside each one there's uh the actual like utterance segments."
+EN2001a,E,"EN2001a.sync.1,612",2332.287,2332.769,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,614",2344.56,2345.041,Mm-hmm.
+EN2001a,A,EN2001a.sync.125,2345.328,2347.792,And the list of them that occurred. And they're all numbered.
+EN2001a,A,EN2001a.sync.127,2349.2,2350.815,Um so that's where that's stored.
+EN2001a,E,"EN2001a.sync.1,616",2355.232,2358.122,"Good. Yeah, I haven't looked at this stuff much at all."
+EN2001a,A,EN2001a.sync.129,2358.304,2369.36,"Yeah, so I guess um if I'm gonna be segmenting it with a L_C_ seg then that's like same format I'd want to um put it back out in so it'd be equivalent."
+EN2001a,E,"EN2001a.sync.1,618",2362.07,2362.56,Yeah.
+EN2001a,E,"EN2001a.sync.1,620",2365.52,2365.969,Yeah.
+EN2001a,E,"EN2001a.sync.1,622",2371.296,2380.528,Who's who's sort of doing the the the central coordination of of of the browser application now? Like
+EN2001a,A,EN2001a.sync.131,2380.704,2383.392,"Well, like the integration. What do you mean, integration?"
+EN2001a,E,"EN2001a.sync.1,624",2382.0,2382.338,Hmm?
+EN2001a,E,"EN2001a.sync.1,626",2383.533,2389.936,"Yeah, or but also like all these elements like like the loading and, yeah, integration and and like handling the data loading and stuff."
+EN2001a,A,EN2001a.sync.133,2387.709,2388.3,Hmm.
+EN2001a,A,EN2001a.sync.135,2391.456,2394.024,I don't know. I don't think anyone's been allocated to do that yet.
+EN2001a,D,"EN2001a.sync.1,017",2392.435,2392.976,
+EN2001a,C,EN2001a.sync.610,2393.861,2394.905,
+EN2001a,E,"EN2001a.sync.1,628",2393.96,2402.225,"Nah. I'm sort of like I think I'll take over the display, just because I've started with a bit and found it found it doable."
+EN2001a,A,EN2001a.sync.137,2395.499,2395.738,
+EN2001a,A,EN2001a.sync.139,2400.937,2401.478,"Yeah, yeah."
+EN2001a,A,EN2001a.sync.141,2403.232,2403.913,"Yeah, definitely."
+EN2001a,E,"EN2001a.sync.1,630",2407.328,2420.272,"So somebody should sort of be the one person who's who understands most about what's t centrally going on with with the with the project, like with the with the browser as a whole and where the data comes in and"
+EN2001a,A,EN2001a.sync.143,2420.192,2421.26,"Hmm, yeah."
+EN2001a,E,"EN2001a.sync.1,632",2425.344,2426.335,Any volunteers?
+EN2001a,B,EN2001a.sync.373,2427.04,2427.931,
+EN2001a,D,"EN2001a.sync.1,019",2428.48,2430.204,It's the most boring task.
+EN2001a,C,EN2001a.sync.612,2429.991,2430.522,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,634",2430.528,2432.172,It's also a complicated one.
+EN2001a,A,EN2001a.sync.145,2431.556,2433.361,"Yeah, it c could be difficult, yeah."
+EN2001a,D,"EN2001a.sync.1,021",2431.666,2432.288,Yeah.
+EN2001a,E,"EN2001a.sync.1,636",2433.6,2434.309,Yeah.
+EN2001a,E,"EN2001a.sync.1,638",2436.112,2447.28,"I know but uh b I guess we can do it like several people together, it's probably just those people have to work together a lot and very closely and just make sure that they're always f understand what the other one is doing."
+EN2001a,A,EN2001a.sync.147,2447.584,2448.117,Yeah.
+EN2001a,A,EN2001a.sync.149,2449.168,2453.786,Well I guess the important thing is to get the crucial m modules built.
+EN2001a,D,"EN2001a.sync.1,023",2454.256,2457.32,Or at least um simple versions of them.
+EN2001a,A,EN2001a.sync.151,2454.909,2456.086,Ye yeah.
+EN2001a,E,"EN2001a.sync.1,640",2457.488,2460.497,"Yeah, or or ready-made versions of them for that matter and"
+EN2001a,A,EN2001a.sync.153,2457.578,2458.634,"Yeah, and then"
+EN2001a,A,EN2001a.sync.155,2460.656,2465.904,"Yeah, and then we'll maybe have to prioritize somebody into just integrating it."
+EN2001a,E,"EN2001a.sync.1,642",2468.56,2504.115,"Yeah, but I think actually like at the moment the integration comes first, I mean it's sort of at the moment the building the browser comes first, and then only comes the creating new sophisticated data chunks, because that's sort of the whole thing about having a prototype system which is more or less working on on chunk data. But it at least we have the framework in which we can then test everything and and look at everything. 'Cause before we have that, it's gonna be very difficult for anyone to really see how much the work that they're doing is making sense because you just well I guess you can see something from the data that you have in your individual X_M_L_ s files files that you create, but it would be nice to have some basic system which just displays some stuff."
+EN2001a,D,"EN2001a.sync.1,025",2504.976,2509.676,"So maybe we should try doing something really simple, like just displaying a whole meeting."
+EN2001a,D,"EN2001a.sync.1,027",2510.848,2513.948,And like just being able to scroll through it or something like that.
+EN2001a,E,"EN2001a.sync.1,644",2514.672,2520.592,Or just adapt like their like just sort of go from their system and and adapt that piece for piece and see how we could
+EN2001a,D,"EN2001a.sync.1,029",2515.981,2516.588,Yeah.
+EN2001a,E,"EN2001a.sync.1,646",2522.464,2524.832,how we could arran like adapt it to our
+EN2001a,E,"EN2001a.sync.1,648",2526.064,2526.672,system.
+EN2001a,E,"EN2001a.sync.1,650",2530.768,2536.416,Does anyone want to like just sit with me and like play for three hours with NITE X_M_L_ at some point?
+EN2001a,D,"EN2001a.sync.1,031",2537.76,2539.072,Are you free after this?
+EN2001a,E,"EN2001a.sync.1,652",2540.79,2547.608,Uh I wouldn't like to be 'cause I'd like to go to the gym. I'm theoretically free. But if there's any time t hmm?
+EN2001a,D,"EN2001a.sync.1,033",2546.032,2548.493,How about Friday then. 'Cause I'm off all Friday.
+EN2001a,E,"EN2001a.sync.1,654",2550.352,2552.36,You have nothing no free time on Wednesday.
+EN2001a,D,"EN2001a.sync.1,035",2552.664,2555.614,Uh Wednesday I've got a nine 'til twelve.
+EN2001a,E,"EN2001a.sync.1,656",2558.048,2558.496,Hmm.
+EN2001a,E,"EN2001a.sync.1,658",2559.631,2561.751,Nine 'til twelve and then nothi you have or you
+EN2001a,D,"EN2001a.sync.1,037",2561.167,2564.968,"Yeah, nothing in the afternoon. I've got nothing in the afternoon. So"
+EN2001a,E,"EN2001a.sync.1,660",2562.864,2563.137,Hmm?
+EN2001a,E,"EN2001a.sync.1,662",2565.04,2567.121,"Anytime Wednesday afternoon I'd be cool, I think."
+EN2001a,D,"EN2001a.sync.1,039",2566.503,2568.091,Okay. So you ha yeah.
+EN2001a,D,"EN2001a.sync.1,041",2570.816,2572.347,"Where about, just in Appleton Tower?"
+EN2001a,E,"EN2001a.sync.1,664",2573.179,2576.737,"Yo, Forrest Hill, whatever one's easier to discuss stuff, I don't know."
+EN2001a,D,"EN2001a.sync.1,043",2576.654,2580.122,Uh I'll be in um the Appleton Tower anyway.
+EN2001a,E,"EN2001a.sync.1,666",2578.32,2579.05,I'm not biased.
+EN2001a,E,"EN2001a.sync.1,668",2580.256,2581.888,Okay. What time do you wanna do?
+EN2001a,D,"EN2001a.sync.1,045",2582.32,2591.666,"Um well I'll be there from twelve. I've got some other stuff that needs done on Matlab, so if you're not there at twelve, I can just work on that. So"
+EN2001a,E,"EN2001a.sync.1,670",2590.48,2593.5,"Okay, so I'll just meet you in in eighteen a in the afternoon."
+EN2001a,D,"EN2001a.sync.1,047",2592.762,2593.386,Yeah.
+EN2001a,E,"EN2001a.sync.1,672",2608.88,2627.415,"I guess at the moment nobody critically depends on like the NITE X_M_L_ stuff working right now, right? Like at the moment you can all do your stuff and I can do my L_S_A_ stuff. And I can even do the display to a vast degree without actually having their supplying framework working. So it's not that crucial."
+EN2001a,A,EN2001a.sync.157,2617.1,2617.524,Mm-hmm.
+EN2001a,C,EN2001a.sync.614,2621.316,2623.885,
+EN2001a,A,EN2001a.sync.159,2627.584,2628.334,"Yeah, I think so."
+EN2001a,C,EN2001a.sync.616,2627.801,2641.628,"Yeah, I w I w I would need the raw text pretty soon because I have to find out um how I have to put the segments into bins. And then yeah."
+EN2001a,E,"EN2001a.sync.1,674",2639.264,2649.996,"Yeah, actually I need the raw text as well. Yeah, but I was I was I was more thinking of the sort of the the whole browser framework as a running programme now. Yeah, I think we all need the raw text in different in different flavours, don't we?"
+EN2001a,A,EN2001a.sync.161,2641.159,2641.762,Uh yeah.
+EN2001a,C,EN2001a.sync.618,2644.299,2646.378,"No, that's not necessary."
+EN2001a,A,EN2001a.sync.163,2649.231,2654.958,"Hmm. Yeah, yeah. Jasmine, I thought you just said that you'd uh looked at extracting the text."
+EN2001a,D,"EN2001a.sync.1,049",2649.992,2650.807,Why w
+EN2001a,C,EN2001a.sync.620,2654.96,2665.131,"Yes, I did. But um I've only just got the notes. I have to still have uh to order everything by the time and"
+EN2001a,A,EN2001a.sync.165,2663.472,2666.766,"Yeah. So you you said you did it in Python, yeah?"
+EN2001a,C,EN2001a.sync.622,2667.12,2669.453,"Yeah, I think it's quite easy after the"
+EN2001a,A,EN2001a.sync.167,2668.768,2686.534,"Yeah, did you use uh b the X_L_ uh X_M_L_ parser in Python? Right. Yeah, sounds pretty good. So um 'cause, yeah, I was having a look in it a look at it as well and I noticed the um the speakers are all in that separate file? So did did you have to combine them all and and then re-order them?"
+EN2001a,C,EN2001a.sync.624,2671.332,2672.709,Yeah. Yeah.
+EN2001a,C,EN2001a.sync.626,2673.717,2674.409,So uh
+EN2001a,C,EN2001a.sync.628,2678.625,2679.074,Mm-hmm.
+EN2001a,C,EN2001a.sync.630,2686.594,2693.953,"Yeah, b I uh w that's what I was uh thought. That you just combine them and then order the time stamps accordingly."
+EN2001a,A,EN2001a.sync.169,2689.712,2690.129,Yeah.
+EN2001a,A,EN2001a.sync.171,2691.164,2691.867,"Ye yeah, c"
+EN2001a,A,EN2001a.sync.173,2693.008,2699.824,"Right. Yeah, so that's approach um well, I was going to do. So yeah, we may as well collaborate."
+EN2001a,C,EN2001a.sync.632,2699.888,2708.443,Okay. Um what I found out was that there are quite a lot of things without without s time stamps in the beginning.
+EN2001a,A,EN2001a.sync.175,2708.527,2709.442,In the word files?
+EN2001a,C,EN2001a.sync.634,2709.948,2715.61,"Yeah, and uh X_M_L_ files. Yeah, that's just an I_D_ or something. I don't know. Just numbers."
+EN2001a,E,"EN2001a.sync.1,676",2710.458,2711.281,
+EN2001a,B,EN2001a.sync.375,2710.631,2712.361,"Yes, but that's"
+EN2001a,B,EN2001a.sync.377,2714.32,2717.712,"Yeah, everything that's a word has a sti time stamp."
+EN2001a,C,EN2001a.sync.636,2718.641,2727.488,"Yes, but what are the other things that's uh some kind of number? F maybe the file number or something that is in the beginning. What is that?"
+EN2001a,A,EN2001a.sync.177,2728.768,2730.481,I'm not sure I what you mean.
+EN2001a,C,EN2001a.sync.638,2728.872,2729.695,Do you know?
+EN2001a,C,EN2001a.sync.640,2730.699,2736.328,Um I think there are quite a lot of numbers in the beginning where n there is no time stamp for the numbers.
+EN2001a,C,EN2001a.sync.642,2737.634,2738.025,It's
+EN2001a,C,EN2001a.sync.644,2739.856,2745.391,"Think they say um quite a lot of numbers and before that, uh um there's this number. Was it"
+EN2001a,E,"EN2001a.sync.1,678",2745.088,2747.136,But number within the X_M_L_ context.
+EN2001a,C,EN2001a.sync.646,2747.264,2753.344,"Yeah, there i are numbers in the um the W_ tag, but there are no time stamps."
+EN2001a,E,"EN2001a.sync.1,680",2753.824,2761.072,"Are they spoken numbers? Like do they look like they're utterances numbers? There's the number task, isn't there. That's part of the whole thing. Hmm?"
+EN2001a,C,EN2001a.sync.648,2756.853,2757.519,Yeah.
+EN2001a,B,EN2001a.sync.379,2759.424,2763.568,"That's at the end. That's at the end, I think, her time."
+EN2001a,E,"EN2001a.sync.1,682",2762.472,2763.153,Okay.
+EN2001a,C,EN2001a.sync.650,2763.008,2767.88,"Yeah, in the beginning as well sometimes, I think. At least I saw some."
+EN2001a,A,EN2001a.sync.179,2765.664,2766.138,Oh right.
+EN2001a,B,EN2001a.sync.381,2766.944,2767.952,"Yeah, maybe."
+EN2001a,E,"EN2001a.sync.1,684",2768.448,2789.909,"Hmm. Yeah, we have to probably cut that out anyway for our project, I don't know. It's probably gonna screw up a lot of our data otherwise. If Not sure if it what it does to document It would probably make the yeah, if if you have segments for that, probably the"
+EN2001a,B,EN2001a.sync.383,2769.216,2770.544,Didn't have a look at our meetings.
+EN2001a,C,EN2001a.sync.652,2769.292,2769.766,Yeah.
+EN2001a,C,EN2001a.sync.654,2775.264,2775.595,Yeah.
+EN2001a,A,EN2001a.sync.181,2776.336,2776.72,Hmm.
+EN2001a,B,EN2001a.sync.385,2776.472,2785.952,Uh I I think it wouldn't as it occurs I mean it would be it occurs in every meeting. So
+EN2001a,B,EN2001a.sync.387,2789.108,2797.755,"And I think it even has uh its own annotation, like digits or something. So that should be really easy to cut out."
+EN2001a,E,"EN2001a.sync.1,686",2794.221,2811.155,Okay. Uh I'm just thinking like it pro it pro probably like the L_S_A_ would perform quite well on it. It would probably find another number task quite easily seeing that it's a constrained vocabulary with a high co-occurrence of the same nine words. So that wou ten word. Hmm?
+EN2001a,C,EN2001a.sync.656,2800.261,2801.184,
+EN2001a,B,EN2001a.sync.389,2802.288,2806.848,Yeah. I'm sure.
+EN2001a,D,"EN2001a.sync.1,051",2802.847,2803.562,
+EN2001a,C,EN2001a.sync.658,2808.336,2810.88,But what it is it actually that numbers?
+EN2001a,B,EN2001a.sync.391,2810.928,2812.992,"Ah it's just to test the system, I think."
+EN2001a,E,"EN2001a.sync.1,688",2813.136,2813.75,Yeah.
+EN2001a,C,EN2001a.sync.660,2813.35,2818.939,"Okay, so but there are no time stamps annotated to that. It's it's quite strange."
+EN2001a,B,EN2001a.sync.393,2814.064,2814.448,So
+EN2001a,E,"EN2001a.sync.1,690",2816.491,2819.918,"I think it's also something that they they said the numbers in order, right?"
+EN2001a,B,EN2001a.sync.395,2820.992,2823.76,Mm they have to read numbers from
+EN2001a,E,"EN2001a.sync.1,692",2823.02,2843.275,"Yeah, I think it's it the it sounded like they wanted to check out how well they were doing with overlapping and stuff, because basically it's like they're reading them at different speeds, but you know in which order they are said. Anyway. ICSI has some reasons for doing it. They must have been pissed off saying like numbers at the end of every meeting."
+EN2001a,B,EN2001a.sync.397,2834.352,2837.28,Uh I didn't have a look at that. So
+EN2001a,A,EN2001a.sync.183,2838.24,2838.608,Hmm.
+EN2001a,C,EN2001a.sync.662,2844.416,2858.689,And also um there are different um combinations of letters. B_R_E_ and something like that. Is it everything ordered are the time stamps global or uh are they local at any point?
+EN2001a,A,EN2001a.sync.185,2859.056,2862.018,Mm I thought they were local to th a particular meeting.
+EN2001a,B,EN2001a.sync.399,2859.759,2860.358,They
+EN2001a,E,"EN2001a.sync.1,694",2862.593,2890.279,"Um Dave, if you would or actually for well, if you're doing I_D_F_s or you whatever you call your your frequencies, I always mix up the name, uh you need some dictionary for that at some point though, like you need to have some representation of a word as not not that specific occurrence of that word token, but of of of a given word form. Because you're making counts for word forms, right? Yeah, so we should work together on that, because I need a dictionary as well."
+EN2001a,C,EN2001a.sync.664,2862.624,2863.066,Okay.
+EN2001a,C,EN2001a.sync.666,2864.813,2866.309,
+EN2001a,D,"EN2001a.sync.1,053",2885.028,2887.285,Yeah. I'm just building a dictionary.
+EN2001a,D,"EN2001a.sync.1,055",2890.32,2903.778,"Oh, mine's just gonna use the um hash map one in um Java. 'Cause I'm only gonna do it on small documents. It's just like bef until the information density is up and running. Just something to get give me something to work with."
+EN2001a,E,"EN2001a.sync.1,696",2896.8,2897.214,Okay.
+EN2001a,E,"EN2001a.sync.1,698",2900.024,2900.473,'Kay.
+EN2001a,E,"EN2001a.sync.1,700",2904.176,2906.476,Okay. Didn't you say that the o the ord
+EN2001a,D,"EN2001a.sync.1,057",2905.775,2909.159,"So it's only gonna use quite small documents, you see, to start with."
+EN2001a,E,"EN2001a.sync.1,702",2909.616,2918.703,"Yeah, but for I'm just wondering for the whole thing. Does somebody wo who was it of you two who said that um there's some programme which spits out a dictionary probably with frequencies?"
+EN2001a,C,EN2001a.sync.668,2918.208,2924.0,"Yeah, it's Rainbow. It's um I think it's just the dictionary in the first place. But"
+EN2001a,E,"EN2001a.sync.1,704",2924.4,2937.008,"Okay. Is anyone of you for the for the document frequency over total frequency, you gonna have total frequencies of words then with that, right? Like over the whole corpus sort of. Or"
+EN2001a,C,EN2001a.sync.670,2924.992,2925.673,
+EN2001a,C,EN2001a.sync.672,2935.805,2943.856,"Um no, I have to bin it up and so I will only have counts for each each bin or something."
+EN2001a,D,"EN2001a.sync.1,059",2943.999,2947.633,Why does it need to be classified into like different segments?
+EN2001a,C,EN2001a.sync.674,2947.712,2957.648,It's because um Rainbow is a text classification system. And I think it's not possible to have just one class. That's the problem.
+EN2001a,D,"EN2001a.sync.1,061",2957.584,2961.179,Can we just fill a second class with junk that we don't care about?
+EN2001a,C,EN2001a.sync.676,2961.232,2962.662,Maybe we could
+EN2001a,D,"EN2001a.sync.1,063",2963.472,2966.117,"Like, I don't know, copies of Shakespeare or something."
+EN2001a,C,EN2001a.sync.678,2965.776,2969.408,"Yeah sure, you sure, we could do that, but I don't that makes sense."
+EN2001a,D,"EN2001a.sync.1,065",2969.502,2975.565,"'Cause if what we're looking for is the um frequency statistics, I don't see how that would be changed by the classification."
+EN2001a,C,EN2001a.sync.680,2978.128,2987.216,"If we need just frequencies, maybe we should just calculate them by using Perl or something. I don't know."
+EN2001a,D,"EN2001a.sync.1,067",2984.768,2985.726,I the
+EN2001a,D,"EN2001a.sync.1,069",2988.256,2990.192,Well there maybe another tool available?
+EN2001a,E,"EN2001a.sync.1,706",2990.582,2990.917,
+EN2001a,C,EN2001a.sync.682,2991.36,2996.658,"Yeah, it's quite easy to just count and s or sort them by um frequency."
+EN2001a,D,"EN2001a.sync.1,071",2994.333,2994.823,Yeah.
+EN2001a,E,"EN2001a.sync.1,708",2996.992,2998.851,W using which tool are you talking about?
+EN2001a,C,EN2001a.sync.684,2998.53,3000.72,Just using a Perl script.
+EN2001a,E,"EN2001a.sync.1,710",3000.928,3025.45,Be careful with that. Like my experience with the British National Corpus was that there's far more word types than you ever think because anything that's sort of unusual generally is a new word type. Like any typo or any strange thing where they put two words together. And also any number as a word type of its own. So you can easily end up with hundred thousands of words when you didn't expect them. So generally dictionaries can grow bigger then you think they do.
+EN2001a,C,EN2001a.sync.686,3005.472,3006.343,Is it too big?
+EN2001a,C,EN2001a.sync.688,3010.5,3011.14,Yeah.
+EN2001a,C,EN2001a.sync.690,3019.536,3020.077,Hmm.
+EN2001a,C,EN2001a.sync.692,3026.096,3030.895,I don't know how you how many terms you can handle in Perl.
+EN2001a,E,"EN2001a.sync.1,712",3030.524,3044.807,"Well you can probably also you can probably pre-filter like with regular expressions even just say if it consists of only dig digits, then skip it, or even if it consists any special characters, then skip it because it's probably something with a dot in between, which is usually not something you wanna have and"
+EN2001a,C,EN2001a.sync.694,3037.556,3038.171,Mm yeah.
+EN2001a,D,"EN2001a.sync.1,073",3045.52,3061.488,Um I can't remember who's got it. Might be WordNet. But one of these big corpuses has a list of stop words that you can download and they're just basically lists of really uninteresting boring words that we could filter out before we do that.
+EN2001a,E,"EN2001a.sync.1,714",3064.413,3065.02,
+EN2001a,D,"EN2001a.sync.1,075",3064.486,3075.282,"It's like that's one the papers I read, that's um one things they did right at the beginning is they've got this big s stop-list and they just ignore all of those throughout the experiment."
+EN2001a,E,"EN2001a.sync.1,716",3073.984,3082.56,"What I did, for my project I just ignored the hundred most frequent words, because they actually end up all being articles and and everything and stuff."
+EN2001a,E,"EN2001a.sync.1,718",3086.477,3092.132,So we need like several of us need a dictionary. Am I the only one who needs it with frequencies?
+EN2001a,D,"EN2001a.sync.1,077",3090.766,3093.776,"Yeah, I it would be useful for me as well."
+EN2001a,E,"EN2001a.sync.1,720",3094.192,3096.402,Am I the only one who needs it with frequencies? Or
+EN2001a,D,"EN2001a.sync.1,079",3097.024,3101.009,It uh I think that'd be useful for me as well. Yeah.
+EN2001a,A,EN2001a.sync.187,3099.536,3099.97,
+EN2001a,E,"EN2001a.sync.1,722",3099.567,3116.372,"Frequencies. Yeah. Well I guess as soon as we have the raw text, we can probably just start with the Java hash map and like just hash map over it and see how far we get. I mean we can probably on a machine with a few hundred megabyte RAM you can go quite far. You can write it on beefy. So even if it goes wrong and even if it has a million words be"
+EN2001a,D,"EN2001a.sync.1,081",3105.861,3106.393,Yeah.
+EN2001a,D,"EN2001a.sync.1,083",3115.419,3123.842,Well all you really wanna do is look into getting some sub-set of the ICSI corpus off the DICE machines. 'Cause I hate working on DICE. It's awful.
+EN2001a,D,"EN2001a.sync.1,085",3125.472,3127.331,Like so I can use my home machine.
+EN2001a,E,"EN2001a.sync.1,724",3127.792,3150.4,"Oh yeah, burning it on a like we should be able to burn the whole corpus, just the X_ hmm? Ah I see, I asked support about that two days ago. In the Informatics building there oh sorry, in in Appleton Tower five the ones closest t two machines closest to the support office. So I presume oh wait, I have the exact email. I think he's talking about sort of the ones that"
+EN2001a,D,"EN2001a.sync.1,087",3130.0,3134.176,ha has a C_D_ burner though. has a C_D_ burner.
+EN2001a,A,EN2001a.sync.189,3133.859,3135.264,
+EN2001a,D,"EN2001a.sync.1,089",3149.344,3152.331,"Yeah. The right-hand corner, far right."
+EN2001a,E,"EN2001a.sync.1,726",3151.856,3169.886,"Yeah, if you if you enter the big room, in the right-hand corner, I think. Um the thing is like you can only burn from the local file-system. So if it's from s well actually I think if it's mounted, you can directly burn from there, but the problem is I have my data on beefy and so I have to get it into the local temp directory and burn it from there. But you can burn it from there."
+EN2001a,D,"EN2001a.sync.1,091",3154.227,3154.693,Yeah.
+EN2001a,B,EN2001a.sync.401,3154.32,3154.736,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,093",3170.247,3172.451,How big is it without um
+EN2001a,E,"EN2001a.sync.1,728",3174.094,3177.68,Uh we looked that up and I for we looked that up and I forgot.
+EN2001a,D,"EN2001a.sync.1,095",3174.423,3176.74,the WAV files and stuff?
+EN2001a,D,"EN2001a.sync.1,097",3178.096,3183.868,'Cause I could just say at um going over S_C_P_ one night and just leave it going all night if I had to.
+EN2001a,E,"EN2001a.sync.1,730",3185.628,3191.744,"Yeah yeah. No, you you we should be able to get it at I don't think it was I don't think it was a gigabyte."
+EN2001a,D,"EN2001a.sync.1,099",3192.88,3198.265,"It's yeah, I mean the wave data are obviously not gonna get off there completely."
+EN2001a,E,"EN2001a.sync.1,732",3193.594,3194.317,Hmm.
+EN2001a,E,"EN2001a.sync.1,734",3197.408,3212.902,"See I would off I would offer you to to get it on this one, and then um like copy it. But you know what I figured out, I'm quicker down-loading over broad-band into my computer than using this hard disk. There's something strange about the way how they access the hard disk, how they mount it, which is unfortunate."
+EN2001a,D,"EN2001a.sync.1,101",3200.95,3201.64,
+EN2001a,D,"EN2001a.sync.1,103",3205.766,3207.351,Really? Oh right?
+EN2001a,D,"EN2001a.sync.1,105",3214.72,3217.106,"I'll see if I can S_C_P_ it, I suppose."
+EN2001a,E,"EN2001a.sync.1,736",3218.624,3220.752,Hmm. What operating system do you have?
+EN2001a,D,"EN2001a.sync.1,107",3220.912,3223.985,I've got a Linux box and a Windows box. So
+EN2001a,E,"EN2001a.sync.1,738",3223.024,3225.058,Okay. Wh what connection do you have at home?
+EN2001a,D,"EN2001a.sync.1,109",3225.536,3226.084,Broad-band.
+EN2001a,E,"EN2001a.sync.1,740",3226.784,3234.962,"Yeah. So if anyone of us gets it, we can then just use an ext hmm? Yeah, burn it to C_D_ or, yeah, put it on on hard disk, whatever."
+EN2001a,D,"EN2001a.sync.1,111",3229.303,3233.203,Put it on to C_D_. I can if I get down I can put to C_D_.
+EN2001a,D,"EN2001a.sync.1,113",3234.64,3235.081,Yeah.
+EN2001a,E,"EN2001a.sync.1,742",3236.352,3247.859,Question is if you're not quicker if you uh because you should get massive compression out of that. Like fifty percent or something with a good algorithm. So if you could compress it and just put it into a temp directory. Like
+EN2001a,D,"EN2001a.sync.1,115",3247.138,3250.993,I'm not sure if there's enough space. Is how much do we get?
+EN2001a,E,"EN2001a.sync.1,744",3249.815,3261.919,"The temp the temps usually have for gigabyte three or two. The temps, yeah. I do like I mean there's not guarantee that anything stays there, but overnight it'll stay. And I think the temps usually have."
+EN2001a,D,"EN2001a.sync.1,117",3253.976,3255.631,Really? Okay.
+EN2001a,E,"EN2001a.sync.1,746",3266.064,3272.432,"Ah yeah, but that would have to be the temp directory off the machine you can S_S_H_ into directory of S_S_H_."
+EN2001a,D,"EN2001a.sync.1,119",3272.464,3279.472,"Yeah, but I can do it from that session, can't I? You can compress it from a remote session and S_C_P_ it from the same session?"
+EN2001a,E,"EN2001a.sync.1,748",3282.464,3286.081,"Yeah, they wou they'd they'd probably hate you for doing it. But"
+EN2001a,E,"EN2001a.sync.1,750",3289.584,3299.437,"They'd probably they'd like you more if you S_S_H_ uh into another computer, compress it there and then sort of copy it into the into the gateway machine."
+EN2001a,D,"EN2001a.sync.1,121",3300.24,3300.837,Do you think?
+EN2001a,E,"EN2001a.sync.1,752",3301.472,3307.29,"They have um if you S_S_ hey, you know, if you if you S_S_H_ and they have this big warning about doing nothing at all in the gateway machine."
+EN2001a,D,"EN2001a.sync.1,123",3305.746,3312.857,"Yeah. Oh no no, I was thinking of SSHing just into some machine and then just SCPing it from there."
+EN2001a,E,"EN2001a.sync.1,754",3310.336,3310.733,Yeah.
+EN2001a,E,"EN2001a.sync.1,756",3315.776,3316.849,To your home machine.
+EN2001a,D,"EN2001a.sync.1,125",3317.024,3319.279,Yeah. I mean it has to go through the gateway. But
+EN2001a,E,"EN2001a.sync.1,758",3318.468,3337.057,I haven't I haven't figured out how to tunnel through the gateway into another machine yet. It's not it's not easy definitely. That's why I end up sort of copying stuff into the temp directory at the gateway machine. Sorry if this is boring everybody else. This is just details and how to get stuff home from what we can probably just look at that together when we're meeting.
+EN2001a,D,"EN2001a.sync.1,127",3321.305,3322.303,Can you not do that?
+EN2001a,D,"EN2001a.sync.1,129",3328.2,3329.281,"Mm, I see."
+EN2001a,B,EN2001a.sync.403,3334.252,3335.929,Uh th yeah.
+EN2001a,D,"EN2001a.sync.1,131",3336.124,3336.731,Yeah.
+EN2001a,B,EN2001a.sync.405,3336.301,3336.562,
+EN2001a,B,EN2001a.sync.407,3337.888,3390.029,"'Kay. Um I just um wondered, so who's uh then doing um the frequencies on on the words, because I'm I think I will also um I could also make use of it um for the agreement and disagreement thing. Because I um I in my outline I talked about um using the um discourse acts first, and um then in the chunks of text I found looking for word patterns and so on. So um I would for example need the um most freq um frequent words. So if you cut off all that, I'd won't be use or"
+EN2001a,E,"EN2001a.sync.1,760",3361.476,3362.073,I'm sorry.
+EN2001a,E,"EN2001a.sync.1,762",3367.968,3368.459,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,764",3384.648,3386.319,Well yeah.
+EN2001a,E,"EN2001a.sync.1,766",3388.832,3399.5,"As soon as somebody gives me the raw text of the whole thing, I can probably just implement like a five line Java hash table frequency dictionary builder and see"
+EN2001a,B,EN2001a.sync.409,3398.912,3402.352,"Yeah, I I but I need it for my chunks then. I would"
+EN2001a,B,EN2001a.sync.411,3403.488,3403.922,You know?
+EN2001a,E,"EN2001a.sync.1,768",3403.707,3406.929,"Oh, did you not say frequencies f of words in the whole sorry, did uh"
+EN2001a,B,EN2001a.sync.413,3406.576,3424.256,"Yeah, but I'd uh I would like to look at the frequency of words in my um in the regions of text I found out to be interesting. So I wouldn't need it. It it would have to be re-calculated only for my segments."
+EN2001a,D,"EN2001a.sync.1,133",3419.015,3419.888,So you could just
+EN2001a,E,"EN2001a.sync.1,770",3419.845,3421.042,So you'd you
+EN2001a,E,"EN2001a.sync.1,772",3421.795,3422.019,
+EN2001a,E,"EN2001a.sync.1,774",3422.58,3424.617,"Yeah, you'd have to count it yourself, yeah."
+EN2001a,D,"EN2001a.sync.1,135",3425.008,3427.643,"But th first, uh how big are the chunks?"
+EN2001a,B,EN2001a.sync.415,3428.832,3429.233,Huh?
+EN2001a,D,"EN2001a.sync.1,137",3429.152,3431.008,How big are the chunks you're looking at?
+EN2001a,B,EN2001a.sync.417,3430.768,3446.006,"Uh uh mm. I think it would be, you know, l as as big at as the hot-spot annotation things. That's quite small, yeah, that's some utterances."
+EN2001a,D,"EN2001a.sync.1,139",3442.062,3461.101,"So quite small then. So you could just um you could use just the same thing we used to build the big dictionary. You just do that on-line 'cause that won't take long to build a little dictionary that big, will it. I mean just use the same tool that we use. Yeah."
+EN2001a,A,EN2001a.sync.191,3446.785,3447.046,Hmm.
+EN2001a,B,EN2001a.sync.419,3459.76,3469.072,"Yes. Yeah, yeah. So I would probably just concatenate all my um text chunks and then let's say m I will run over it."
+EN2001a,D,"EN2001a.sync.1,141",3464.848,3465.307,Yeah.
+EN2001a,E,"EN2001a.sync.1,776",3469.072,3493.169,"Oh, you don't wanna have different counts for each chunk, but just like sort of for for something from old chunks. Oh yeah, no, that's yeah, so once I write an ar like w if I write like an algorithm which does a hash um table dictionary with frequency from a raw text, then the raw text can be anything. So how far are we g uh how f how far are you getting raw text out of it do you think?"
+EN2001a,B,EN2001a.sync.421,3475.104,3475.584,Yes.
+EN2001a,C,EN2001a.sync.696,3493.472,3497.6,"Uh I can get all the raw text, but it has to be ordered still. So"
+EN2001a,E,"EN2001a.sync.1,778",3498.384,3517.462,"Okay, well that's good, because for the dictionary the order doesn't make a difference, does it? So yeah, so um I'll get that from you and I'll write the hash table which goes over that and creates a dictionary file. So for the dictionary, is it okay if I do, whatever, word blank frequency or something? Just p could everybody sort of start from that? I mean I guess we can"
+EN2001a,D,"EN2001a.sync.1,143",3500.736,3502.293,"It doesn't need ordered, no."
+EN2001a,C,EN2001a.sync.698,3502.225,3503.048,"No, it isn't."
+EN2001a,D,"EN2001a.sync.1,145",3516.619,3522.814,Um well that's the t are you using T_F_I_D_F_ for the information density?
+EN2001a,C,EN2001a.sync.700,3523.344,3531.12,"Um it's in what is implemented in Rainbow is information gain, and I'm not quite sure how they calculate that."
+EN2001a,D,"EN2001a.sync.1,147",3528.345,3529.467,"Alright, okay."
+EN2001a,D,"EN2001a.sync.1,149",3532.4,3547.987,"Like 'cause frequency would be useful, I think. But um depending on the context, the size, and what we consider a document in the sense of calculating T_F_I_D_F_ is gonna change."
+EN2001a,E,"EN2001a.sync.1,780",3537.088,3539.177,"Yeah, I I need frequency as well."
+EN2001a,C,EN2001a.sync.702,3537.136,3537.66,Yeah.
+EN2001a,D,"EN2001a.sync.1,151",3550.396,3552.323,Which might need thinking about.
+EN2001a,E,"EN2001a.sync.1,782",3552.608,3563.328,"Well I think we might have a lot in common what we calculate because I for my latent semantic analysis need like counts of words within a document, uh within a a segment actually, within a topic segment."
+EN2001a,C,EN2001a.sync.704,3563.248,3570.8,Uh that's what Rainbow does. I think you j can just get probabilities for a certain words for each document.
+EN2001a,C,EN2001a.sync.706,3571.956,3572.629,Certain
+EN2001a,E,"EN2001a.sync.1,784",3572.112,3574.521,Can I convert these probabilities back into frequencies?
+EN2001a,C,EN2001a.sync.708,3575.296,3578.992,Um we would have to look at that.
+EN2001a,E,"EN2001a.sync.1,786",3578.944,3579.616,Okay.
+EN2001a,E,"EN2001a.sync.1,788",3582.32,3594.833,"Oh, so that's what f Rainbow does, because that's what L_S_A_ builds on. Like it builds a f a document by frequency matrix. So I could probably get that. Even though but I already have I already have my code to build it up myself. No, don't bother. I have my code already. Um"
+EN2001a,C,EN2001a.sync.710,3585.479,3586.069,Mm-hmm.
+EN2001a,C,EN2001a.sync.712,3587.636,3588.152,Oh.
+EN2001a,E,"EN2001a.sync.1,790",3596.537,3602.869,"Yeah, so Dave, you said you need the frequency counts actually for per document, would you say, not for the whole thing?"
+EN2001a,D,"EN2001a.sync.1,153",3599.006,3600.644,"I think it would be useful, yeah."
+EN2001a,D,"EN2001a.sync.1,155",3602.322,3608.096,Well you need the raw frequency as well. But um
+EN2001a,D,"EN2001a.sync.1,157",3609.504,3615.912,you also need how many times things occur within each document.
+EN2001a,D,"EN2001a.sync.1,159",3617.248,3638.745,"And um what we consider a document's gonna depend on our context, I think. 'Cause if we're looking at the whole lot of meetings, we'll consider each meeting a document in sort of terms of this algorithm. And if we're viewing like say just a small topic segment you might look at even each utterance as a small document."
+EN2001a,E,"EN2001a.sync.1,792",3639.504,3658.72,"It more and more appears to me that if we if we scrap the notion of the meeting as an individual thing and sort of ju see meetings as as topic segments and have sort of like hierarchical topic segmentation instead, then it's b like a more coherent framework."
+EN2001a,D,"EN2001a.sync.1,161",3657.097,3658.669,"Yeah, but the thing is um"
+EN2001a,D,"EN2001a.sync.1,163",3662.002,3664.523,It's gonna need some th th thought of how we
+EN2001a,D,"EN2001a.sync.1,165",3666.016,3700.301,"Actually maybe it doesn't actually matter. Maybe if you just do it once at the highest level, it it will be fine. But I was just thinking it might be difficult to calculate the T_F_I_D_F_ off-line for all the different levels we might want. 'Cause if we're gonna allow disjoint segments for example, then how are we gonna know what's gonna be in context at any given time? But I suppose if you just did it globally, treating a meeting as a document, it'd probably still be work out fine, because you'd only be comparing to ones within the context."
+EN2001a,E,"EN2001a.sync.1,794",3698.528,3709.443,"Wait, are we are we using this um for the for the for the do for the weighting in the end now, this this measure you're calculating?"
+EN2001a,D,"EN2001a.sync.1,167",3709.712,3712.676,"Uh I don't know, I thought were you gonna use that in the end?"
+EN2001a,D,"EN2001a.sync.1,169",3715.345,3716.741,The information density.
+EN2001a,E,"EN2001a.sync.1,796",3720.449,3729.562,"Because if we're doing Like I think for for the information density we uh we should calculate it on the lowest level, not on the highest. But like 'cause"
+EN2001a,D,"EN2001a.sync.1,171",3729.299,3738.604,"Oh sorry, that's what I mean. Like um yeah, for each word or whatever, but across the whole lot is what I mean by highest level. Like across the whole corpus."
+EN2001a,E,"EN2001a.sync.1,798",3739.104,3747.152,"Yeah, but w it don't you have to like go sort of like for in a document versus the whole thing? Isn't that how it works that you c look look at r"
+EN2001a,C,EN2001a.sync.714,3741.137,3742.544,
+EN2001a,D,"EN2001a.sync.1,173",3746.647,3749.328,"Yeah, but you'd probably look at each meeting as a document."
+EN2001a,E,"EN2001a.sync.1,800",3749.648,3764.325,I don't think that's a good idea because isn't it like that we expect th there to change over i b with the different topic segments more? That they talk about something different in each different topic segment.
+EN2001a,D,"EN2001a.sync.1,175",3766.4,3767.474,Mm possibly.
+EN2001a,E,"EN2001a.sync.1,802",3771.536,3781.246,"'Cause that's what relative term frequency is about, that like in some context they're talking more about a certain word than in general. So that would more be the the topic segments then."
+EN2001a,C,EN2001a.sync.716,3783.297,3793.856,"Yeah, that's what I thought as well, that you that probably the the topic segment level is the most um informative for the words."
+EN2001a,E,"EN2001a.sync.1,804",3783.376,3784.131,I don't know.
+EN2001a,E,"EN2001a.sync.1,806",3785.392,3785.834,Yeah.
+EN2001a,E,"EN2001a.sync.1,808",3792.208,3794.112,Yeah. Yeah.
+EN2001a,D,"EN2001a.sync.1,177",3794.335,3797.104,Are they big enough to get anything meaningful out of?
+EN2001a,C,EN2001a.sync.718,3796.132,3798.469,"Yeah, that's the problem. I don't know."
+EN2001a,E,"EN2001a.sync.1,810",3803.984,3814.804,So I'm just wondering if there's ways to abandon the whole concept of of meetings and sort of but just not really treating separate meetings as too much of a separate entity. But
+EN2001a,D,"EN2001a.sync.1,179",3814.158,3822.764,"Well yeah, that is not it's not an issue. You just concatenate an X_M_L_ file together. but we still want to have like a notion of meetings for the user."
+EN2001a,B,EN2001a.sync.423,3823.312,3825.664,"Yes, definitely."
+EN2001a,E,"EN2001a.sync.1,812",3826.064,3831.872,"But on algorithmic level, whether we actually whether there's some way to just represent meetings as as topics."
+EN2001a,D,"EN2001a.sync.1,181",3830.928,3848.138,"Yeah, sure. Yeah, you just like whatever you want to look at, you just jam together into an X_M_L_ file and that's your meeting, even though bits of it may come from all over the place or whatever. I mean I don't see why that's really a big problem."
+EN2001a,E,"EN2001a.sync.1,814",3842.208,3842.824,Hmm.
+EN2001a,E,"EN2001a.sync.1,816",3848.224,3851.152,That's not really what I meant. But I think I have to think more about what I meant.
+EN2001a,E,"EN2001a.sync.1,818",3853.376,3855.328,Um g I'm confused about everything.
+EN2001a,D,"EN2001a.sync.1,183",3856.96,3872.211,So basically what you're saying is you can take an arbitrary amount of data and process it with the same algorithm. It doesn't matter conceptually what that data is. It could be a meeting. it could be two utterances. it could be a meeting plus half a meeting from somewhere else.
+EN2001a,E,"EN2001a.sync.1,820",3869.568,3870.157,Yeah.
+EN2001a,E,"EN2001a.sync.1,822",3872.224,3904.336,"I'm I'm not so concerned about the m a meeting plus something else, I'm more talking about like, yeah, the keeping keeping the same algorithm and the same way of handling it and just saying like just this this topic here i uh it happens to be like a whole meeting and it has sort of sub-topics, so just that sort of topics a hierarchical concept where like a topic where there can be super-topics and topics, and the super-topics are in the end what the meetings are, but in general at some level super-topics are treated like like topics."
+EN2001a,D,"EN2001a.sync.1,185",3904.688,3932.267,"I don't think it's very difficult though. I mean what you do is you just build an X_M_L_ file, and if you want it to get down to the utterances, you'd go to the leaves. And then if you wanted the next level up, you'd go to the parents of those and like just go from like the leaves inwards towards the branch to build up things like um you know, when you click on a segment, it's gonna have like words or whatever that are important."
+EN2001a,E,"EN2001a.sync.1,824",3934.048,3934.457,Hmm.
+EN2001a,E,"EN2001a.sync.1,826",3937.488,3940.523,Mm I'm not really sure what I want.
+EN2001a,D,"EN2001a.sync.1,187",3939.952,3946.097,"As long as like the algorithms are designed um with it in mind, I don't think it's a very big problem."
+EN2001a,E,"EN2001a.sync.1,828",3947.296,3949.401,"So sorry, could describe that again, the"
+EN2001a,D,"EN2001a.sync.1,189",3949.168,3959.232,"Well like say you had um like say for a meeting, right, you've got like uh say a hierarchy that looks quite big, like this."
+EN2001a,D,"EN2001a.sync.1,191",3961.776,3964.224,And like the utterances come off of here maybe.
+EN2001a,E,"EN2001a.sync.1,830",3964.764,3965.297,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,193",3966.0,3981.998,"Then when whatever your algorithm is doing, as long as when you're working with utterances, you go for all the leaves, like then if you need something next up, so like a topic segment, you'd go to here. But if you were looking at say this one, so only went like this."
+EN2001a,E,"EN2001a.sync.1,832",3968.24,3968.658,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,195",3985.072,3990.524,"Right, so you it's same, you'd start with the leaves, and you go oh, I want a topic segment. So I go one layer up."
+EN2001a,E,"EN2001a.sync.1,834",3991.328,3991.753,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,197",3992.137,4006.101,"See, and then if you're working with just a topic segment in there, it's the only thing you have to worry about. And like each time you want a higher level, you just need to go up the tree. And as long as your algorithm respects that, then we can just"
+EN2001a,D,"EN2001a.sync.1,199",4008.256,4010.144,process any arbitrary X_M_L_
+EN2001a,D,"EN2001a.sync.1,201",4011.438,4013.918,file with whatever hierarchical structure we want.
+EN2001a,E,"EN2001a.sync.1,836",4015.856,4021.12,"So that would be the series as a whole. That would be sort of m meetings, yeah."
+EN2001a,D,"EN2001a.sync.1,203",4019.152,4021.806,"A meeting, say, and that would be a topic segment."
+EN2001a,E,"EN2001a.sync.1,838",4023.392,4029.657,"Yeah. I'm a I'm a I'm a bit brain-damaged at the moment, but I think I'll just sit together with you again and and go through it again."
+EN2001a,D,"EN2001a.sync.1,205",4029.904,4038.005,"So I think as long as you build an algorithm that respects whatever structure's in the file, rather than imposing its own structure"
+EN2001a,E,"EN2001a.sync.1,840",4035.728,4036.134,Hmm.
+EN2001a,E,"EN2001a.sync.1,842",4040.528,4051.261,So so I'll is th it like is this and this structurally then always identical? So that we can that we can treat it with the same algorithm or
+EN2001a,D,"EN2001a.sync.1,207",4047.936,4049.237,"Well no, it doesn't have to be."
+EN2001a,D,"EN2001a.sync.1,209",4051.184,4055.376,"But I mean it could be as many nodes as you want. Like this one could be deeper maybe,"
+EN2001a,D,"EN2001a.sync.1,211",4057.392,4065.95,"say. So then you'd start with all your utterances here, and when you go up to get topic segments, you go to here here here here here here here."
+EN2001a,D,"EN2001a.sync.1,213",4067.984,4071.104,That might be a bit confusing though 'cause you have things on different levels.
+EN2001a,E,"EN2001a.sync.1,844",4072.624,4081.709,"Yeah, I'm also not sure how we can go from from bottom-up. I have always thought it's like more that oh, whatever, I'm a can't think of it at the moment."
+EN2001a,E,"EN2001a.sync.1,846",4086.608,4092.189,Probably this is all too complicated worrying about that at that moment anyway.
+EN2001a,E,"EN2001a.sync.1,848",4095.031,4096.335,
+EN2001a,A,EN2001a.sync.193,4099.36,4101.347,Mm is there anything else we should discuss?
+EN2001a,E,"EN2001a.sync.1,850",4102.928,4114.984,"Now have have we have we decided anything, are we doing anything? S Wednesday we are meeting and looking at their at their implementation in some more detail to actually understand what's going on."
+EN2001a,D,"EN2001a.sync.1,215",4106.32,4108.924,Well Wednesday. Yeah.
+EN2001a,C,EN2001a.sync.720,4108.675,4109.864,
+EN2001a,D,"EN2001a.sync.1,217",4112.544,4112.978,Yeah.
+EN2001a,D,"EN2001a.sync.1,219",4114.832,4123.34,So we'll see if we can get like a mini-browser just displays two things synched together of some kind. Yeah. Yeah.
+EN2001a,E,"EN2001a.sync.1,852",4120.372,4126.608,"We had two things from their stuff just to make sure that we are like understand it, we understand it enough to to m modify it."
+EN2001a,A,EN2001a.sync.195,4127.28,4133.041,"Yeah, should we not have like a group directory or something where we can put all our code in and that kinda thing?"
+EN2001a,D,"EN2001a.sync.1,221",4133.64,4136.209,It'd be useful. I don't know who you see about that though.
+EN2001a,A,EN2001a.sync.197,4136.608,4137.085,Hmm.
+EN2001a,E,"EN2001a.sync.1,854",4138.528,4144.272,Yep. How would we do that? By just making like it w read write for everyone.
+EN2001a,E,"EN2001a.sync.1,856",4146.24,4148.505,"'Kay, who has most free space on their"
+EN2001a,A,EN2001a.sync.199,4149.152,4150.931,I've gotten mm hardly any
+EN2001a,C,EN2001a.sync.722,4149.347,4150.07,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,223",4149.888,4151.094,I d have no idea.
+EN2001a,A,EN2001a.sync.201,4151.322,4151.62,
+EN2001a,E,"EN2001a.sync.1,858",4151.856,4152.849,Same here.
+EN2001a,D,"EN2001a.sync.1,225",4153.936,4161.207,I've probably got a reasonable amount because um everything on my DICE account can actually be deleted 'cause I store it all at home as well.
+EN2001a,A,EN2001a.sync.203,4162.288,4162.804,Hmm.
+EN2001a,E,"EN2001a.sync.1,860",4163.184,4171.942,Well we alternatively we can probably just make another directory on the beefy scratch space. I mean that's where I'm having gigabytes and gigabytes of stuff at the moment.
+EN2001a,D,"EN2001a.sync.1,227",4172.742,4174.297,"Is that guaranteed to stay, the"
+EN2001a,E,"EN2001a.sync.1,862",4174.272,4175.746,No. No.
+EN2001a,C,EN2001a.sync.724,4174.796,4175.786,
+EN2001a,A,EN2001a.sync.205,4176.864,4179.761,"Yeah, we can ask Steve if um we can get space."
+EN2001a,E,"EN2001a.sync.1,864",4180.416,4180.864,Yeah.
+EN2001a,D,"EN2001a.sync.1,229",4183.16,4185.065,Maybe you should send a support form.
+EN2001a,A,EN2001a.sync.207,4185.632,4187.105,"Yeah, uh we could do that."
+EN2001a,E,"EN2001a.sync.1,866",4186.061,4193.336,But I think if he sends to the I think if he sends to the port he'd probably be in a better position. Yeah.
+EN2001a,D,"EN2001a.sync.1,231",4186.693,4188.481,Just say we want some web space.
+EN2001a,A,EN2001a.sync.209,4188.212,4188.808,
+EN2001a,D,"EN2001a.sync.1,233",4191.015,4192.687,Listen to.
+EN2001a,B,EN2001a.sync.425,4192.624,4193.324,
+EN2001a,A,EN2001a.sync.211,4193.76,4195.797,"Yeah, I'm sure he had to deal with that last year."
+EN2001a,D,"EN2001a.sync.1,235",4195.808,4202.401,Yeah. 'Cause that'd be really useful is if we had a big directory. Especially for transferring stuff.
+EN2001a,C,EN2001a.sync.726,4196.528,4197.293,
+EN2001a,E,"EN2001a.sync.1,868",4201.984,4202.457,Hmm.
+EN2001a,D,"EN2001a.sync.1,237",4206.649,4212.403,"Having said that, are we allowed to take a copy of the ICSI corpus? Something we should probably ask before we do it."
+EN2001a,E,"EN2001a.sync.1,870",4212.368,4233.611,"I think he said yes to that. I think uh that was like in when we were still in the seminar room, I asked that once or like ask is it possible to get it off and nobody said like people were discussing about the technical practicalities, but nobody said anything about al being allowed to or not allowed to. I mean, we have access to it here and I guess it probably means that we we can't give it to anybody else. But"
+EN2001a,D,"EN2001a.sync.1,239",4213.943,4214.326,.
+EN2001a,D,"EN2001a.sync.1,241",4216.992,4217.584,Okay.
+EN2001a,A,EN2001a.sync.213,4224.765,4225.131,
+EN2001a,D,"EN2001a.sync.1,243",4233.424,4233.999,Okay.
+EN2001a,E,"EN2001a.sync.1,872",4236.016,4245.154,"but if they give us access to it here o sitting on a DICE machine, then there shouldn't be a reason why we shouldn't be able to use it on our laptop. I personally don't have too many friends who would be too keen on getting it anyway."
+EN2001a,D,"EN2001a.sync.1,245",4245.248,4250.281,"No, me neither."
+EN2001a,A,EN2001a.sync.215,4245.471,4246.019,
+EN2001a,C,EN2001a.sync.728,4245.888,4247.23,
+EN2001a,B,EN2001a.sync.427,4246.176,4247.776,"Yeah, right."
+EN2001a,E,"EN2001a.sync.1,874",4247.168,4252.034,I have that really excited pirate copied thing. It annotated meeting data.
+EN2001a,C,EN2001a.sync.730,4249.219,4250.674,
+EN2001a,B,EN2001a.sync.429,4249.349,4250.576,Ye
+EN2001a,A,EN2001a.sync.217,4249.427,4250.134,
+EN2001a,B,EN2001a.sync.431,4252.059,4252.512,M
+EN2001a,C,EN2001a.sync.732,4252.195,4255.889,So shall we sit together tomorrow then as well? Uh Okay.
+EN2001a,A,EN2001a.sync.219,4254.84,4255.389,Yeah.
+EN2001a,B,EN2001a.sync.433,4256.256,4264.368,"Um Jasmine, uh um what is um the text you're extracting uh looking like then at the end?"
+EN2001a,C,EN2001a.sync.734,4265.056,4270.74,"Um, yeah, w would it be best? At the moment it's it's just lines of"
+EN2001a,B,EN2001a.sync.435,4268.064,4292.622,Because um I I think it's actually very similar to what I did for my um speaker um uh extraction and I think I would ch perhaps have to change two lines of codes to get you um for each meeting a file that says fr from um this millisecond to this millisecond there was this sequence of words.
+EN2001a,C,EN2001a.sync.736,4272.976,4273.477,Mm-hmm.
+EN2001a,B,EN2001a.sync.437,4294.112,4294.656,And so on.
+EN2001a,C,EN2001a.sync.738,4296.021,4296.77,Um
+EN2001a,B,EN2001a.sync.439,4296.124,4301.456,So that's just changing two lines of code. And it would give you that. So
+EN2001a,C,EN2001a.sync.740,4303.032,4308.454,"Okay. So um you'd do you extract the words, the raw text, as well? Uh"
+EN2001a,B,EN2001a.sync.441,4307.216,4326.928,"Um yeah. So far I extracted um the dura durations. But it's from the words file. So I could just um contatenate concatenate um the words instead of the durations, and it should I mean"
+EN2001a,C,EN2001a.sync.742,4312.407,4312.929,Okay.
+EN2001a,C,EN2001a.sync.744,4315.13,4315.754,Mm-hmm.
+EN2001a,C,EN2001a.sync.746,4317.883,4318.64,Print out.
+EN2001a,C,EN2001a.sync.748,4327.975,4328.832,
+EN2001a,B,EN2001a.sync.443,4329.312,4330.401,Should be very
+EN2001a,B,EN2001a.sync.445,4331.488,4332.176,straight-forward.
+EN2001a,B,EN2001a.sync.447,4334.025,4341.134,"I can try to do it and send it to you. Pe and you have a look at it, will it make sense for what you want."
+EN2001a,C,EN2001a.sync.750,4336.604,4337.901,"Okay. Okay, that"
+EN2001a,C,EN2001a.sync.752,4342.782,4343.272,Okay.
+EN2001a,C,EN2001a.sync.754,4344.559,4345.267,
+EN2001a,E,"EN2001a.sync.1,876",4351.099,4351.465,Huh.
+EN2001a,C,EN2001a.sync.756,4351.181,4353.885,So have we already extracted from all the files?
+EN2001a,B,EN2001a.sync.449,4354.512,4358.88,"Yeah, uh p I mean it I just let it run over all the files. So"
+EN2001a,C,EN2001a.sync.758,4356.016,4356.424,Yeah.
+EN2001a,C,EN2001a.sync.760,4358.666,4360.256,Did you also order
+EN2001a,B,EN2001a.sync.451,4361.04,4363.104,Yes. I just ordered.
+EN2001a,C,EN2001a.sync.762,4361.488,4361.937,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,878",4361.657,4364.627,"Wait, wait, wait. Um sorry. Yeah, sorry."
+EN2001a,B,EN2001a.sync.453,4365.823,4370.32,Uh I ordered according to the um starting times of the utterances.
+EN2001a,C,EN2001a.sync.764,4369.15,4369.616,Hmm.
+EN2001a,E,"EN2001a.sync.1,880",4371.815,4381.376,"What I just realised, we should really t keep different serieses completely separate for virtually all purposes. Just let's be careful about that, because"
+EN2001a,B,EN2001a.sync.455,4381.968,4383.488,What do you mean by diffe
+EN2001a,E,"EN2001a.sync.1,882",4382.774,4392.114,"like the the ICSI corpus isn't isn't one meeting series, it's several meeting series with different people meeting for completely different things."
+EN2001a,A,EN2001a.sync.221,4387.44,4387.808,Hmm.
+EN2001a,B,EN2001a.sync.457,4392.368,4398.282,"Yeah, I mean t I I have one what I give you would be one file for each meeting."
+EN2001a,E,"EN2001a.sync.1,884",4400.021,4401.136,For each meeting.
+EN2001a,B,EN2001a.sync.459,4401.552,4404.448,"Yeah, not for each meeting series. I didn't do that yet."
+EN2001a,E,"EN2001a.sync.1,886",4402.297,4402.633,Alright.
+EN2001a,E,"EN2001a.sync.1,888",4403.254,4411.611,"Okay, but like let's just be careful that whatever we sort of we merge together, that like the highest level of merging, it's not the whole ICSI corpus but individual series."
+EN2001a,B,EN2001a.sync.461,4411.002,4412.54,"Yeah, one group, yeah."
+EN2001a,C,EN2001a.sync.766,4411.727,4412.234,Hmm.
+EN2001a,D,"EN2001a.sync.1,247",4412.089,4421.71,Might be funny to see what is summarised the whole corpus as anyway. I think it'd be very useful. But
+EN2001a,B,EN2001a.sync.463,4414.944,4422.571,
+EN2001a,A,EN2001a.sync.223,4415.443,4416.491,
+EN2001a,C,EN2001a.sync.768,4415.547,4419.235,
+EN2001a,E,"EN2001a.sync.1,890",4415.968,4434.627,. I think we might actually I think That's probably be somewhere like well or something like it. Um I think we might just get away with for the whole project just like looking at only one series and just doing within one series. I mean you can do everything you want in one series.
+EN2001a,C,EN2001a.sync.770,4420.691,4421.805,
+EN2001a,A,EN2001a.sync.225,4423.718,4424.475,
+EN2001a,B,EN2001a.sync.465,4425.886,4426.221,
+EN2001a,B,EN2001a.sync.467,4434.032,4439.888,"Yeah, I mean there's one series that has just one meeting."
+EN2001a,C,EN2001a.sync.772,4435.351,4436.32,
+EN2001a,E,"EN2001a.sync.1,892",4437.255,4438.304,"Oh yeah, let's take that."
+EN2001a,A,EN2001a.sync.227,4437.668,4439.569,That sounds good.
+EN2001a,D,"EN2001a.sync.1,249",4438.196,4439.354,
+EN2001a,E,"EN2001a.sync.1,894",4442.031,4446.272,Is the is the data always clearly split up by different series? Uh like is it easy to just pick one
+EN2001a,B,EN2001a.sync.469,4444.864,4461.96,"Yes. Um the you you the data is of the form you have um three identification letter. So B_E_D_ or B_B_D_ or something, and that's always the same group. And then after that there's um a number like O_O_ one, O_O_ two. So, it's a"
+EN2001a,E,"EN2001a.sync.1,896",4451.411,4452.138,Okay.
+EN2001a,E,"EN2001a.sync.1,898",4453.693,4454.366,Okay.
+EN2001a,E,"EN2001a.sync.1,900",4455.963,4456.653,Okay.
+EN2001a,E,"EN2001a.sync.1,902",4461.118,4491.617,"Okay. So at at every level everyone has to be careful to really just take even at the highest level, just take stuff from one series and not merge stuff from different series together because they would probably be just majorly messy. Yeah, so so t so like if even if we make one single text file which has the whole corpus, sort of our corpus, that would still be from one series only. Wou but it what you're producing at the moment is like individual text files that sort of have the raw text for a whole a meeting as a whole or"
+EN2001a,B,EN2001a.sync.471,4470.135,4475.448,"Yeah, but that's that's really quite easy to see because they're named."
+EN2001a,A,EN2001a.sync.229,4470.636,4471.143,Hmm.
+EN2001a,B,EN2001a.sync.473,4478.178,4478.513,
+EN2001a,B,EN2001a.sync.475,4492.048,4525.312,"Yes. But I I mean as um the start uh start times um start for each meeting at zero, you could just probably just um add the um final second time to the next meeting and so on and just put it all together. But then we would have to change um the information about who on which channel it was set, um to by which person it was set. And that is actually stored in another X_M_L_ document."
+EN2001a,E,"EN2001a.sync.1,904",4497.855,4498.371,Mm-hmm.
+EN2001a,E,"EN2001a.sync.1,906",4512.239,4513.129,Yeah.
+EN2001a,A,EN2001a.sync.231,4526.183,4526.632,Hmm.
+EN2001a,E,"EN2001a.sync.1,908",4526.581,4534.505,"'Kay. Um so is is anybody creating an uh a real raw text thing at the moment, like which is just the words?"
+EN2001a,A,EN2001a.sync.233,4534.695,4536.784,"Yeah, that's what I'm gonna need."
+EN2001a,E,"EN2001a.sync.1,910",4537.456,4539.266,"Yeah, tha 'cause that's what I'm gonna need as well."
+EN2001a,B,EN2001a.sync.477,4538.176,4545.736,"Yeah, I w would then just not print out the um start and end times."
+EN2001a,A,EN2001a.sync.235,4543.003,4543.527,Yes.
+EN2001a,A,EN2001a.sync.237,4544.503,4546.218,"Yeah, it's just mo changing it a bit."
+EN2001a,E,"EN2001a.sync.1,912",4544.505,4551.382,But i but if there uh b aren't like so it's it's start and end times just for the file. Like is it just the first and the last line? Or is it for every single thing in
+EN2001a,C,EN2001a.sync.774,4545.408,4546.067,Okay.
+EN2001a,B,EN2001a.sync.479,4550.688,4552.48,"No, it's for every single word."
+EN2001a,D,"EN2001a.sync.1,251",4553.696,4555.185,We can just change the code.
+EN2001a,B,EN2001a.sync.481,4553.808,4557.408,"Or for every single utterance. Yeah, that depends on what you want."
+EN2001a,A,EN2001a.sync.239,4555.702,4556.112,Yeah.
+EN2001a,E,"EN2001a.sync.1,914",4556.56,4558.88,So what do you mean by just not print out that?
+EN2001a,B,EN2001a.sync.483,4559.584,4565.264,"Yeah, but I do it with Perl, it's just string manipulation. So I would I mean I would just"
+EN2001a,E,"EN2001a.sync.1,916",4563.584,4564.214,Okay.
+EN2001a,E,"EN2001a.sync.1,918",4565.568,4588.033,"If you're into it, can you make a text file which just like makes just the words? 'Kay. Do you want it straight flowing, 'cause I would need something that marks the end of uh of uh is is yours segmented by topics then that like is there any information that you have to the topic, to the automated topic topic segmentation? Oh then I need something different later anyway. Okay, but for now, if you c"
+EN2001a,B,EN2001a.sync.485,4569.104,4570.352,Sure.
+EN2001a,B,EN2001a.sync.487,4582.4,4584.58,"No, I didn't do a sea no."
+EN2001a,A,EN2001a.sync.241,4587.004,4592.068,"No, but uh that's what M_L_C_ seg does. It it marks the end of each segment."
+EN2001a,E,"EN2001a.sync.1,920",4591.984,4606.166,"Okay. You're gonna put that as an output of yours, the segmentation. Okay, so for now can you create like sort of just uh a dump which is pure text, just pure text so that I can get a dictionary and you can work on that for your topic segmentation. And"
+EN2001a,A,EN2001a.sync.243,4594.506,4594.822,Yeah.
+EN2001a,A,EN2001a.sync.245,4604.112,4604.488,Yeah.
+EN2001a,B,EN2001a.sync.489,4606.272,4612.161,And you would want that all in one file for all the corpus? Or
+EN2001a,E,"EN2001a.sync.1,922",4612.096,4620.536,"Or for for the series. But I can but I can also deal with separate files, I mean I can just write the algorithm that it loads all files in a directory or something. But I mean if you"
+EN2001a,B,EN2001a.sync.491,4613.99,4615.173,For the series.
+EN2001a,B,EN2001a.sync.493,4620.144,4623.281,"Yeah, I can directly put it into uh just like"
+EN2001a,E,"EN2001a.sync.1,924",4622.432,4625.893,"But if you can put it in one single mega-file, that would be quite useful for me."
+EN2001a,B,EN2001a.sync.495,4626.176,4631.792,So uh only words um per meeting series.
+EN2001a,A,EN2001a.sync.247,4626.491,4626.975,Oh.
+EN2001a,E,"EN2001a.sync.1,926",4632.24,4637.184,"Even though for you, wouldn't it be easier if you had different files because then you sort of know like"
+EN2001a,A,EN2001a.sync.249,4636.493,4636.816,Yeah.
+EN2001a,A,EN2001a.sync.251,4638.176,4640.414,"Yeah, for me it's better if they're by meeting."
+EN2001a,E,"EN2001a.sync.1,928",4639.616,4649.924,"Yeah. So give m give me different files as long as like it m if you could name them in a way that is easy to enumerate over them, like whatever, one two three four five or something. Or just anything that I can"
+EN2001a,B,EN2001a.sync.497,4643.728,4644.16,Uh-huh.
+EN2001a,B,EN2001a.sync.499,4647.776,4649.008,Yes.
+EN2001a,B,EN2001a.sync.501,4650.144,4656.66,"Yeah, they will just I will just take I would uh take over the names they have anyway."
+EN2001a,E,"EN2001a.sync.1,930",4656.627,4663.442,"Yeah. Is is it something that's easily enu like to enumerate over? Is it some just some ordered pattern? Okay, cool."
+EN2001a,B,EN2001a.sync.503,4660.768,4661.616,"Yeah, yeah."
+EN2001a,B,EN2001a.sync.505,4662.704,4667.524,"Yeah, one series has the um same three starting letters. So"
+EN2001a,E,"EN2001a.sync.1,932",4667.067,4669.316,"Okay, cool. Yeah."
+EN2001a,B,EN2001a.sync.507,4669.088,4672.56,So only words and words and times. And you
+EN2001a,C,EN2001a.sync.776,4672.094,4676.992,"Uh I don't need the times, I just need the words. But um"
+EN2001a,E,"EN2001a.sync.1,934",4677.28,4678.24,In the right order.
+EN2001a,B,EN2001a.sync.509,4677.904,4683.168,"Yeah, you want it ordered. Okay. Okay, anybody"
+EN2001a,C,EN2001a.sync.778,4678.098,4682.656,"Yeah, in the right order. Yes."
+EN2001a,E,"EN2001a.sync.1,936",4680.322,4684.276,It's just a wish list. Orders.
+EN2001a,B,EN2001a.sync.511,4685.219,4687.008,Um ord base dot times.
+EN2001a,B,EN2001a.sync.513,4688.08,4689.472,"Yeah, and do you want"
+EN2001a,B,EN2001a.sync.515,4690.96,4694.732,"Yeah, sometimes they're contained in one another. So"
+EN2001a,C,EN2001a.sync.780,4694.848,4697.392,"Yeah, that doesn't matter too much, I think."
+EN2001a,B,EN2001a.sync.517,4696.4,4699.136,Just after th mm-hmm. 'Kay.
+EN2001a,B,EN2001a.sync.519,4700.32,4702.667,Ordered. Only words.
+EN2001a,E,"EN2001a.sync.1,938",4707.888,4714.947,When do you think you'll have um like a primitive segmentation by some ready-made topic segmentation by some ready-made tool ready?
+EN2001a,A,EN2001a.sync.253,4715.712,4721.377,Then that'll be really easy to do once they've got the raw text. It's just a case of running the script.
+EN2001a,C,EN2001a.sync.782,4719.065,4719.773,
+EN2001a,E,"EN2001a.sync.1,940",4719.408,4719.972,Okay.
+EN2001a,E,"EN2001a.sync.1,942",4721.68,4724.794,"Okay, cool. 'Cause I'll need that then when it's done."
+EN2001a,A,EN2001a.sync.255,4724.815,4726.525,"Yeah, I mean hopefully this week."
+EN2001a,E,"EN2001a.sync.1,944",4726.912,4727.409,Okay.
+EN2001a,B,EN2001a.sync.521,4727.2,4739.92,"Um and I think um for all the corpus, it's just from I know from other times, it's um nine megami byte to have I mean should be should be similar to have the words. Should be."
+EN2001a,E,"EN2001a.sync.1,946",4734.336,4734.745,Mm-hmm.
+EN2001a,D,"EN2001a.sync.1,253",4737.1,4738.696,Is that it? That's quite good.
+EN2001a,E,"EN2001a.sync.1,948",4740.592,4742.522,What's what's nine megabyte? The the
+EN2001a,B,EN2001a.sync.523,4742.144,4745.968,Na um all the words together um for all the meetings.
+EN2001a,A,EN2001a.sync.257,4746.736,4747.187,Alright.
+EN2001a,E,"EN2001a.sync.1,950",4747.104,4753.234,That sounds quite reasonable. That's nine nine characters over okay.
+EN2001a,B,EN2001a.sync.525,4749.232,4761.199,"That's what I'm guessing that's, you know, um what I because nine mega-byte is what I got for when I said for every um utterance, this is goes from there to there and"
+EN2001a,C,EN2001a.sync.784,4751.712,4752.469,
+EN2001a,E,"EN2001a.sync.1,952",4759.221,4766.537,Okay. Okay. That is for are we are we picking one particular series at the moment? Or
+EN2001a,B,EN2001a.sync.527,4762.864,4764.8,takes takes seconds.
+EN2001a,A,EN2001a.sync.259,4767.687,4768.358,And we could
+EN2001a,B,EN2001a.sync.529,4767.776,4773.68,"Oh. Yeah, I mean I'm it doing it for all of it. Doesn't matter."
+EN2001a,E,"EN2001a.sync.1,954",4769.728,4770.092,Yes.
+EN2001a,E,"EN2001a.sync.1,956",4773.76,4774.811,Okay.
+EN2001a,E,"EN2001a.sync.1,958",4775.872,4792.375,"Yeah. Yeah, I guess we can probably process the data for all different series and then check which series is the best for the presentation. It sounds quite reasonable, nine megabyte. I mean if you think if it's r roughly a million words and nine characters per word sounds realisti"
+EN2001a,D,"EN2001a.sync.1,255",4781.216,4781.717,Yeah.
+EN2001a,B,EN2001a.sync.531,4790.528,4795.344,"Yeah, I mean I hope it will be the same for the words. It's just what I"
+EN2001a,E,"EN2001a.sync.1,960",4795.744,4796.21,Yeah.
+EN2001a,E,"EN2001a.sync.1,962",4798.771,4814.844,"Yes, I'm gonna build a dictionary then from that. Like just a list of the words that maybe a list of the words with the frequencies or a list of the words sorted alphabetically or numerically. What what does anyone want? Does this there any wishes for dictionaries?"
+EN2001a,B,EN2001a.sync.533,4809.387,4809.76,I
+EN2001a,D,"EN2001a.sync.1,257",4816.806,4824.232,"I could just use it with the frequency, I think, until the information density thing's finished. That would be really useful."
+EN2001a,C,EN2001a.sync.786,4817.273,4817.87,
+EN2001a,B,EN2001a.sync.535,4824.768,4839.408,Mm-hmm. Mm. So so um I will probably send um just one file of the first meeting um to all those who need it so that you can have a look whether that's what you want.
+EN2001a,C,EN2001a.sync.788,4825.216,4825.75,Hmm.
+EN2001a,E,"EN2001a.sync.1,964",4826.613,4828.032,So I'll create a dictionary.
+EN2001a,E,"EN2001a.sync.1,966",4838.374,4844.327,"Add add the structure, yeah. And then the actual file we can probably like copy from your home directory or something like it."
+EN2001a,C,EN2001a.sync.790,4839.839,4840.338,Mm-hmm.
+EN2001a,B,EN2001a.sync.537,4844.4,4847.345,"Yeah, I mean if it's just for one meeting, it's really not too big."
+EN2001a,E,"EN2001a.sync.1,968",4847.168,4852.916,"Yeah yeah, but I'm sa I'm saying for the whole thing in the end. Then like the big thing we probably shouldn't do by email."
+EN2001a,B,EN2001a.sync.539,4849.488,4849.955,Yeah.
+EN2001a,E,"EN2001a.sync.1,970",4855.328,4855.761,Yeah.
+EN2001a,C,EN2001a.sync.792,4856.286,4863.264,How long would it take to make the frequency counts with a Java hash table?
+EN2001a,E,"EN2001a.sync.1,972",4863.36,4871.253,"Oh, from the time I get the file I can do that in an afternoon, the next sort of the next morning. Oh, you mean how long processing time it takes."
+EN2001a,C,EN2001a.sync.794,4868.176,4868.912,Yeah.
+EN2001a,C,EN2001a.sync.796,4871.024,4874.384,"No, how long you would have to program something."
+EN2001a,E,"EN2001a.sync.1,974",4873.696,4890.154,"Ah, it's a it's a bog standard algorithm. I've I've sort of I've written it for for DIL just in half an hour or something similar. It's just you put them in a hash table and and say well if it exists already in the hash table then you increase the count by one and I'll probably implement some filter for filtering out numbers or something."
+EN2001a,C,EN2001a.sync.798,4879.741,4880.489,Okay.
+EN2001a,C,EN2001a.sync.800,4886.32,4886.813,Mm.
+EN2001a,C,EN2001a.sync.802,4890.831,4899.768,"Because it's quite easy in Perl as well, it's just a line of code for counting all the words and yeah, it's it's by hashes."
+EN2001a,E,"EN2001a.sync.1,976",4897.232,4898.512,Really? How do you do that?
+EN2001a,E,"EN2001a.sync.1,978",4900.64,4907.017,"Okay, well I don't know any Perl. I mean if anyone wants to do a Perl script for that that does it does it nicely, I uh"
+EN2001a,C,EN2001a.sync.804,4901.599,4902.139,Yeah.
+EN2001a,B,EN2001a.sync.541,4904.579,4905.213,
+EN2001a,C,EN2001a.sync.806,4905.008,4906.016,Yeah.
+EN2001a,E,"EN2001a.sync.1,980",4909.247,4922.094,I've no problem with that. I but I think I have the Java code virtually ready because for DIL I wrote something very similar. Like for DIL I wrote something that counts the the different occurrences of all the tags um
+EN2001a,C,EN2001a.sync.808,4915.068,4915.478,'Kay.
+EN2001a,D,"EN2001a.sync.1,259",4921.541,4934.695,"If you're doing it in Java, could you um serialize the output as well as writing it to a file? If you're doing it in Java, could you serialize the um dictionary, yeah, as well as writing it to a file?"
+EN2001a,E,"EN2001a.sync.1,982",4927.264,4927.819,Sorry?
+EN2001a,E,"EN2001a.sync.1,984",4931.696,4932.754,The hash table?
+EN2001a,E,"EN2001a.sync.1,986",4934.976,4937.071,Uh I've never serialized anything.
+EN2001a,D,"EN2001a.sync.1,261",4936.159,4937.552,It's really easy.
+EN2001a,C,EN2001a.sync.810,4938.202,4938.873,
+EN2001a,E,"EN2001a.sync.1,988",4938.624,4940.562,Wouldn't that be absolutely massive though?
+EN2001a,D,"EN2001a.sync.1,263",4941.824,4944.106,I don't see why it'd be any more massive than the file.
+EN2001a,E,"EN2001a.sync.1,990",4944.304,4951.925,And then seriali and then write the serialization to a file. So you want like a se like a file which is the serialization of a hash table.
+EN2001a,D,"EN2001a.sync.1,265",4947.264,4947.821,Yeah.
+EN2001a,D,"EN2001a.sync.1,267",4951.114,4953.445,It just saves you parsing the um
+EN2001a,E,"EN2001a.sync.1,992",4954.253,4954.646,Okay.
+EN2001a,D,"EN2001a.sync.1,269",4955.44,4961.876,file representation of it. And now 'cause I would be using it in Java anyway. So I'd just be building the data structure again.
+EN2001a,E,"EN2001a.sync.1,994",4961.616,4972.299,"Yeah. I I'll I'll check if I understand how it works. I mean otherwise I can give you the code for loading a dictionary. Give you my my it's just it's it's sort of it's a line break separated file, you know."
+EN2001a,D,"EN2001a.sync.1,271",4971.594,4976.816,"Yeah, but it seems like a bit silly to be parsing it over and over again kinda thing."
+EN2001a,E,"EN2001a.sync.1,996",4977.024,4977.658,Yeah.
+EN2001a,E,"EN2001a.sync.1,998",4982.592,4988.101,"Yeah, I'll see if I understand how to serialize. There's a there's a serialise command so that gives me one mega mother of a s"
+EN2001a,D,"EN2001a.sync.1,273",4987.152,4994.56,I would've thought that um I think all the collections and things implement serializable already.
+EN2001a,E,"EN2001a.sync.2,000",4994.688,4998.365,"Yeah, but do they automatically write to the file anyway I'll I'll figure that out. We don't have to"
+EN2001a,D,"EN2001a.sync.1,275",4997.064,4998.312,I think they might do.
+EN2001a,E,"EN2001a.sync.2,002",5000.384,5002.336,"Yes, is that pretty much"
+EN2001a,E,"EN2001a.sync.2,004",5004.656,5005.572,pretty much it?
+EN2001a,E,"EN2001a.sync.2,006",5008.48,5013.601,So Dave and me look at how NITE X_M_L_ works and we're
+EN2001a,D,"EN2001a.sync.1,277",5012.912,5021.12,Tonight I'll try and um I'll either work some more on uh the T_F_I_D_F_ summarizer or do the audio thing.
+EN2001a,E,"EN2001a.sync.2,008",5021.872,5022.298,Hmm.
+EN2001a,E,"EN2001a.sync.2,010",5025.872,5029.216,I'll build a dictionary as soon as I get the text.
+EN2001a,E,"EN2001a.sync.2,012",5031.808,5033.031,"And yeah, so that"
+EN2001a,E,"EN2001a.sync.2,014",5035.271,5038.208,When do we have to meet again then with this?
+EN2001a,A,EN2001a.sync.261,5039.58,5041.36,Don't know. Suppose we're just getting on with all our
+EN2001a,D,"EN2001a.sync.1,279",5042.128,5042.643,Yeah.
+EN2001a,A,EN2001a.sync.263,5042.432,5043.472,components. So
+EN2001a,E,"EN2001a.sync.2,016",5044.24,5047.406,How are we gonna do a demonstrator next week? My God.
+EN2001a,A,EN2001a.sync.265,5044.724,5045.209,
+EN2001a,D,"EN2001a.sync.1,281",5047.216,5048.98,Do we have to demonstrate something next week?
+EN2001a,A,EN2001a.sync.267,5047.221,5049.192,I know. Wa
+EN2001a,B,EN2001a.sync.543,5049.504,5050.986,What do we have to demonstrate?
+EN2001a,E,"EN2001a.sync.2,018",5050.756,5060.16,"No no, not demonstrate, but like didn't you say that uh didn't we sort of agree that it would be useful to have a demonstrator of it, like some primitive thing working next week."
+EN2001a,C,EN2001a.sync.812,5055.637,5056.585,
+EN2001a,A,EN2001a.sync.269,5059.413,5063.063,"Yeah. Yeah, he suggested that we could have an uh initial prototype."
+EN2001a,E,"EN2001a.sync.2,020",5063.703,5067.071,That's gotta be very prototype.
+EN2001a,C,EN2001a.sync.814,5063.72,5064.204,
+EN2001a,D,"EN2001a.sync.1,283",5064.428,5065.201,
+EN2001a,A,EN2001a.sync.271,5066.639,5072.336,"I know, I'd b I'd be surprised if we can get anything working by next week."
+EN2001a,D,"EN2001a.sync.1,285",5067.103,5067.618,Yeah.
+EN2001a,E,"EN2001a.sync.2,022",5071.808,5072.209,
+EN2001a,E,"EN2001a.sync.2,024",5074.816,5080.984,"Mm-hmm. Ah well, let's go. Sorry."
+EN2001a,B,EN2001a.sync.545,5079.865,5080.35,
+EN2001a,A,EN2001a.sync.273,5081.05,5081.311,Alright.
+EN2001a,E,"EN2001a.sync.2,026",5082.996,5084.71,
+EN2001a,E,"EN2001a.sync.2,028",5084.968,5095.431,I feel like like hanging mid-air and not really like finding a point where you can get your teeth into it and start working properly and so it's all so fuzzy the whole
+EN2001a,D,"EN2001a.sync.1,287",5092.304,5093.352,"Yeah, I know."
+EN2001a,D,"EN2001a.sync.1,289",5098.238,5108.058,I think it's 'cause we had to specify it ourselves that it's not as um like focus the specification of most um work we have to do.
+EN2001a,E,"EN2001a.sync.2,030",5106.902,5115.558,"Yeah, but it at the moment but at the moment it's also an implementational level. Like with the data structures, I'm just like over these vague ideas of some trees, I'm f"
+EN2001a,D,"EN2001a.sync.1,291",5113.516,5114.215,Yeah.
+EN2001a,D,"EN2001a.sync.1,293",5115.44,5119.649,Once we start doing it it will all become more or less obvious I think anyway.
+EN2001a,E,"EN2001a.sync.2,032",5119.482,5126.403,Yeah. It's just we are half-way through the project time table. That's just what freaks me out.
+EN2001a,E,"EN2001a.sync.2,034",5132.104,5132.67,Um
